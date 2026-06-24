@@ -16,22 +16,13 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           submodules: recursive
 
-      - name: Cache cargo plugins
-        id: cache-obsidian-export
-        uses: actions/cache@v1
-        with:
-          path: ~/.cargo/bin/
-          key: ${{ runner.os }}-cargo-plugins
-
-      - name: Install obsidian-export
-        if: steps.cache-obsidian-export.outputs.cache-hit != 'true'
-        uses: actions-rs/install@v0.1
+      - name: Install obsidian-export (cached)
+        uses: baptiste0928/cargo-install@v3
         with:
           crate: obsidian-export
-          version: latest
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
@@ -49,7 +40,7 @@ jobs:
         run: hugo -DEF --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ site.Language.Locale }}">
   <head>
     {{ $favicon := resources.Get "favicon.ico" }}
     {{ $favicon16 := resources.Get "favicon-16x16.png" }}
@@ -57,7 +57,7 @@
         }
         </script>
         {{ else if .IsPage }}
-        {{ $author :=  or (.Params.author) (.Site.Author.name) }}
+        {{ $author :=  or (.Params.author) (site.Params.author.name) }}
         {{ $org_name :=  .Site.Title }}
         <script type="application/ld+json">
         {
@@ -68,7 +68,7 @@
             "headline": "{{ .Title | safeJS }}",
             "alternativeHeadline": "{{ .Params.lead }}",
             "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
-            "inLanguage": {{ .Site.LanguageCode | default "en-us" }},
+            "inLanguage": {{ site.Language.Locale | default "en-us" }},
             "isFamilyFriendly": "true",
             "mainEntityOfPage": {
                 "@type": "WebPage",

@@ -1,0 +1,32 @@
+name: Build check
+
+# PR smoke test: validates the Hugo templates + config compile on the latest
+# Hugo without needing the private content submodule. Builds with an empty
+# content dir so it exercises the layouts/partials (404 + home render) and
+# catches template/config bit-rot (e.g. a removed Hugo template function)
+# before merge. The full content build + deploy runs post-merge in main.yml.
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Hugo template + config smoke test
+    steps:
+      - name: Checkout (no submodule; content is private)
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build with empty content (template + config validation)
+        shell: bash
+        run: |
+          mkdir -p content
+          hugo -DEF --minify

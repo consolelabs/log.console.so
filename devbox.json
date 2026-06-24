@@ -1,15 +1,15 @@
 {
   "packages": {
-    "go":                    "1.21.3",
-    "rustup":                "1.26.0",
-    "libiconv":              "2.38",
-    "gcc":                   "13.2.0",
-    "hugo":                  "0.120.2",
-    "obsidian":              "1.4.16",
-    "fswatch":               "1.17.1",
-    "git":                   "2.42.0",
-    "python310Packages.pip": "23.2.1",
-    "python":                "3.10.13"
+    "go":                    "latest",
+    "rustup":                "latest",
+    "libiconv":              "latest",
+    "gcc":                   "latest",
+    "hugo":                  "latest",
+    "obsidian":              "latest",
+    "fswatch":               "latest",
+    "git":                   "latest",
+    "python3Packages.pip":   "latest",
+    "python3":               "latest"
   },
   "shell": {
     "init_hook": [
