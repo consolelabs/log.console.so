@@ -1,0 +1,4 @@
+# built binary
+/logwriter
+# default draft output dir
+/logwriter-out/
