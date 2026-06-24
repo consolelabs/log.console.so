@@ -9,7 +9,7 @@
 
 ## Sub-goals
 
-- [ ] 01-revive-build, local `make build` produces `public/` on the current toolchain (versions pinned), `auto`, PR #
+- [x] 01-revive-build, local `make build` produces `public/` on the current toolchain (versions pinned), `auto`, PR #2
 - [ ] 02-writing-tool, `logwriter <month>` emits a vault-ready in-voice draft from real repo signal, `auto`, PR #
 - [ ] 03-publish-flow, one-command draft-only flow stages a post into the content repo + opens a PR (no direct push to live), `auto`, PR #
 - [ ] 04-monitoring, vps-mon catalog shows log.console.so uptime + freshness + publish-job as `monitored`, `auto`, PR #
