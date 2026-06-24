@@ -1,10 +1,14 @@
 baseURL: https://log.console.so/
-languageCode: "en-us"
 title: Console Labs
-author:
-  email: han@console.so
-  name: Han Ngo
 copyright: © 2023 ConsoleLabs.
+languages:
+  en:
+    languageCode: en-us
+    weight: 1
+params:
+  author:
+    email: han@console.so
+    name: Han Ngo
 module:
   imports:
   - path: github.com/alex-shpak/hugo-book
