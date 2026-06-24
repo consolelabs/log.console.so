@@ -14,6 +14,8 @@
 - [ ] 03-publish-flow, one-command draft-only flow stages a post into the content repo + opens a PR (no direct push to live), `gate`, PR #
 - [ ] 04-monitoring, vps-mon catalog shows log.console.so uptime + freshness + publish-job as `monitored`, `auto`, PR #
 - [ ] 05-first-post-uat, a real monthly post is live + Han-signed-off, `gate`, PR #
+- [ ] 06-design-system, `docs/brand/DESIGN.md` brand guideline locked (via UI/UX designer sub-agent), `gate`, PR #
+- [ ] 07-reskin-log, log Hugo layouts + assets render on the DESIGN.md tokens, `gate`, PR #
 
 ## Dependencies
 
@@ -21,6 +23,9 @@
 - 03 depends on 02 (needs a draft to publish)
 - 04 depends on 01 (the deploy job + live site to monitor must exist)
 - 05 depends on 02 and 03 (runs the tool + the publish flow end to end)
+- 06 depends on nothing (reads the current sticker + log styling; can start immediately)
+- 07 depends on 06 and 01 (implements the locked brand on a working build)
+- **Merge order for a rebranded launch:** 05 and 07 are both Han-merged gates. 05 does NOT hard-depend on 07 (a first post can ship on the current skin), but merge 07 before 05 if the first public post should land on the new brand (recommended). Han controls both gate merges, so this is a sequencing choice at merge time, not a code dependency.
 
 ## Assumptions (baked from Han's 2026-06-25 answers)
 
