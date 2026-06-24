@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Console Log: June 2026, Mint, sharpened</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0F1115;
+    --ink-soft: #3A3F47;
+    --ink-faint: #6B7280;
+    --paper: #FFFFFF;
+    --paper-2: #F7F8F7;
+    --line: #E3E6E3;
+    --mint: #1FB877;
+    --mint-ink: #0E7C4F;
+    --mint-bright: #45F1A6;
+    --mint-wash: #EAFBF2;
+    --mint-line: #9DE9C4;
+
+    --t-display: 700 40px/46px "Space Grotesk", "Inter", system-ui, sans-serif;
+    --t-h2: 600 27px/34px "Space Grotesk", system-ui, sans-serif;
+    --t-h3: 600 20px/28px "Space Grotesk", system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+    --body: "Inter", system-ui, sans-serif;
+
+    --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px;
+    --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px;
+    --measure: 68ch;
+    --sidebar-w: 220px;
+    --gutter: 56px;
+    --page-pad: 48px;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 400 17px/28px var(--body);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--mint-bright); color: var(--ink); }
+
+  /* ---------- Header ---------- */
+  header.site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--s-4);
+    padding: var(--s-5) var(--page-pad);
+    border-bottom: 1px solid var(--line);
+  }
+  .brand { display: flex; align-items: center; gap: var(--s-3); }
+  .brand .neko { width: 30px; height: 30px; display: block; }
+  .brand .neko path { fill: var(--ink); }
+  .wordmark {
+    font: 600 21px/1 "Space Grotesk", sans-serif;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+  .wordmark .dot {
+    display: inline-block;
+    width: 5px; height: 5px;
+    background: var(--mint-bright);
+    margin: 0 3px 3px;
+    vertical-align: middle;
+  }
+  .tagline {
+    font: 400 13px/20px var(--mono);
+    letter-spacing: 0.02em;
+    color: var(--ink-faint);
+  }
+
+  /* ---------- Layout ---------- */
+  .shell {
+    display: grid;
+    grid-template-columns: var(--sidebar-w) 1fr;
+    gap: var(--gutter);
+    padding: var(--s-8) var(--page-pad) var(--s-9);
+    max-width: 1180px;
+  }
+
+  /* ---------- Sidebar ---------- */
+  nav.side { font: 400 15px/24px var(--body); }
+  nav.side .group { margin-bottom: var(--s-6); }
+  nav.side .group-label {
+    font: 500 12px/16px var(--mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--mint);
+    margin: 0 0 var(--s-3);
+  }
+  nav.side ul { list-style: none; margin: 0; padding: 0; }
+  nav.side li { margin: 0; }
+  nav.side a {
+    display: block;
+    color: var(--ink-soft);
+    text-decoration: none;
+    padding: 6px var(--s-3);
+    border-left: 2px solid transparent;
+    border-radius: 0 4px 4px 0;
+  }
+  nav.side a:hover { color: var(--ink); background: var(--paper-2); }
+  nav.side a.active {
+    color: var(--ink);
+    font-weight: 600;
+    border-left-color: var(--mint);
+    background: var(--paper-2);
+  }
+  nav.side .divider { height: 1px; background: var(--line); margin: var(--s-5) var(--s-3) var(--s-5) 0; }
+
+  /* ---------- Post ---------- */
+  main { min-width: 0; }
+  .post { max-width: var(--measure); }
+  .eyebrow {
+    font: 500 12px/16px var(--mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--mint);
+    margin: 0 0 var(--s-2);
+  }
+  h1.title {
+    font: var(--t-display);
+    letter-spacing: -0.02em;
+    margin: 0 0 var(--s-4);
+    color: var(--ink);
+  }
+  .meta {
+    font: 400 13px/20px var(--mono);
+    letter-spacing: 0.02em;
+    color: var(--ink-faint);
+    font-variant-numeric: tabular-nums;
+    margin-bottom: var(--s-6);
+  }
+  .meta .sep { color: var(--line); margin: 0 8px; }
+  .standfirst {
+    font: 400 19px/30px var(--body);
+    color: var(--ink-soft);
+    margin: 0 0 var(--s-7);
+  }
+
+  section.block { margin-top: var(--s-7); }
+  h2.sec {
+    font: var(--t-h2);
+    letter-spacing: -0.01em;
+    margin: 0 0 var(--s-4);
+    color: var(--ink);
+  }
+  p { margin: 0 0 var(--s-4); }
+  a.link {
+    color: var(--mint-ink);
+    text-decoration: underline;
+    text-decoration-color: var(--mint);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+  }
+  a.link:hover { color: var(--ink); text-decoration-thickness: 3px; }
+
+  ul.shipped { list-style: none; margin: 0; padding: 0; }
+  ul.shipped li {
+    position: relative;
+    padding-left: var(--s-5);
+    margin-bottom: var(--s-4);
+  }
+  ul.shipped li::before {
+    content: "·";
+    position: absolute;
+    left: 6px; top: -2px;
+    color: var(--mint);
+    font-size: 26px;
+    line-height: 1;
+  }
+  ul.shipped b { color: var(--ink); font-weight: 600; }
+  ul.shipped .why { color: var(--ink-soft); }
+
+  code {
+    font: 400 14px/22px var(--mono);
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--ink);
+  }
+
+  .callout {
+    background: var(--mint-wash);
+    border-left: 3px solid var(--mint-line);
+    border-radius: 6px;
+    padding: var(--s-5);
+    margin: var(--s-6) 0;
+  }
+  .callout .lead {
+    font: 500 12px/16px var(--mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--mint-ink);
+    margin: 0 0 var(--s-2);
+  }
+  .callout p { margin: 0; color: var(--ink); }
+
+  .endmark {
+    margin-top: var(--s-8);
+    padding-top: var(--s-5);
+    border-top: 1px solid var(--line);
+    text-align: center;
+  }
+  .endmark .neko { width: 22px; height: 22px; display: inline-block; }
+  .endmark .neko path { fill: var(--ink); }
+  .endmark .by {
+    display: block;
+    margin-top: var(--s-2);
+    font: 400 13px/20px var(--mono);
+    letter-spacing: 0.02em;
+    color: var(--ink-faint);
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 860px) {
+    .shell { grid-template-columns: 1fr; gap: var(--s-7); padding-top: var(--s-7); }
+    nav.side { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s-5); }
+    nav.side .group { margin-bottom: 0; }
+    nav.side .divider { display: none; }
+    .tagline { display: none; }
+    h1.title { font-size: 32px; line-height: 38px; }
+  }
+
+  /* ---------- Dark mode ---------- */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #E8EAE8; --ink-soft: #AEB4B7; --ink-faint: #7C8388;
+      --paper: #0C0E10; --paper-2: #15181B; --line: #262A2E;
+      --mint: #45F1A6; --mint-ink: #45F1A6;
+      --mint-wash: #11231C; --mint-line: #2F7F5C;
+    }
+    .wordmark .dot { background: var(--mint); }
+    ::selection { background: var(--mint); color: var(--paper); }
+  }
+</style>
+</head>
+<body>
+
+<!-- A compact, abstract black-cat (neko) silhouette mark, reused as logo + endmark -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="neko" viewBox="0 0 32 32">
+    <path d="M6 3l4 5a11 11 0 0 1 12 0l4-5 1 9a11 11 0 0 1 1 5c0 6-5 10-12 10S4 22 4 16a11 11 0 0 1 1-5l1-8zm6 13a1.6 1.6 0 1 0 0 .01zm8 0a1.6 1.6 0 1 0 0 .01zM16 19l-2 1.5a2.2 2.2 0 0 0 4 0L16 19z"/>
+  </symbol>
+</svg>
+
+<header class="site">
+  <div class="brand">
+    <svg class="neko" aria-hidden="true"><use href="#neko"/></svg>
+    <span class="wordmark">console<span class="dot"></span>log</span>
+  </div>
+  <span class="tagline">the lab, narrated monthly</span>
+</header>
+
+<div class="shell">
+
+  <nav class="side" aria-label="Primary">
+    <div class="group">
+      <p class="group-label">Pages</p>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Philosophy</a></li>
+        <li><a href="#">Purpose</a></li>
+      </ul>
+    </div>
+    <div class="divider"></div>
+    <div class="group">
+      <p class="group-label">Streams</p>
+      <ul>
+        <li><a href="#">experiments</a></li>
+        <li><a class="active" href="#" aria-current="page">blog</a></li>
+        <li><a href="#">playbook</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <article class="post">
+      <p class="eyebrow">Monthly log</p>
+      <h1 class="title">Console Log: June 2026</h1>
+      <p class="meta">
+        2026-06-30 <span class="sep">/</span> neko-san <span class="sep">/</span> #monthly #shipped
+      </p>
+
+      <p class="standfirst">
+        We shipped a leaner ICY top-up flow, broke (and fixed) Mochi Pay on
+        Telegram, and spent a week arguing about whether a wallet should ever
+        nag you. Some stuff rocked, some did not. Here is the scoop. 🐈‍⬛
+      </p>
+
+      <section class="block">
+        <p class="eyebrow">TL;DR</p>
+        <h2 class="sec">The short version</h2>
+        <p>
+          June was a "sharpen what we have" month, not a "ship something big"
+          month. The ICY treasury reconcile got simpler, Mochi got friendlier on
+          mobile, and we killed one feature we were quietly proud of because
+          nobody used it. We are okay with that.
+        </p>
+      </section>
+
+      <section class="block">
+        <p class="eyebrow">Shipped</p>
+        <h2 class="sec">What went out the door 🚀</h2>
+        <ul class="shipped">
+          <li>
+            <b>ICY top-up, one fewer step.</b>
+            <span class="why">The swap confirm and the backing check are now a
+            single screen. Why it matters: fewer taps means fewer ways to fat-finger
+            a treasury move.</span>
+          </li>
+          <li>
+            <b>Mochi Pay on Telegram, unbroken.</b>
+            <span class="why">A silent <code>409</code> busy-loop was eating
+            replies. Why it matters: the wallet that does not answer is not a
+            wallet.</span>
+          </li>
+          <li>
+            <b>Tono reads threads now.</b>
+            <span class="why">Our Discord LLM bot finally follows a reply chain.
+            Why it matters: context in, less nonsense out.</span>
+          </li>
+        </ul>
+
+        <div class="callout">
+          <p class="lead">Heads up</p>
+          <p>
+            The old <code>/icy adjust</code> Discord command is gone. Treasury
+            moves are treasurer-only now, run straight against the ledger. Same
+            safety, less surface.
+          </p>
+        </div>
+      </section>
+
+      <section class="block">
+        <p class="eyebrow">Thinking</p>
+        <h2 class="sec">What we are chewing on 🔍</h2>
+        <p>
+          The feature we cut was a "gentle reminder to rebalance". It tested fine
+          and shipped clean, and then we watched the numbers: almost nobody
+          opened it, and the few who did found it annoying. A wallet that nags is
+          a wallet you mute. So we pulled it.
+        </p>
+        <p>
+          The lesson we keep relearning: <a class="link" href="#">small but
+          sharp</a> is a discipline, not a slogan. Every screen we add is a screen
+          we have to defend. June's win was not a launch, it was a deletion. More
+          on the reasoning in the <a class="link" href="#">playbook</a>.
+        </p>
+      </section>
+
+      <div class="endmark">
+        <svg class="neko" aria-hidden="true"><use href="#neko"/></svg>
+        <span class="by">, neko-san</span>
+      </div>
+    </article>
+  </main>
+
+</div>
+</body>
+</html>

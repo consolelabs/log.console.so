@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>console·log, Fintech Editorial direction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;450;650;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0f1115; --ink-soft:#3a3f47; --ink-faint:#6b727c;
+    --paper:#ffffff; --paper-2:#f7f8f7; --rule:#e3e6e4;
+    --mint:#45f1a6; --mint-ink:#0a7a4a; --mint-wash:#eafbf2;
+    --amber-ink:#8a5a00; --amber-wash:#fbf3e3;
+    --sidebar-w:232px; --content-max:640px; --gutter:56px;
+    --s-1:4px; --s-2:8px; --s-3:16px; --s-4:24px; --s-5:40px; --s-6:64px; --s-7:96px;
+    --r-sm:4px; --r-md:8px;
+    --serif:"Fraunces",Georgia,serif;
+    --sans:"Inter",system-ui,sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#e8ebe9; --ink-soft:#aab1ab; --ink-faint:#7d847e;
+      --paper:#0c0e0d; --paper-2:#151917; --rule:#262b28;
+      --mint:#45f1a6; --mint-ink:#5cf3b0; --mint-wash:#10231a;
+      --amber-ink:#e8c87a; --amber-wash:#241d10;
+    }
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--sans); font-size:17px; line-height:1.65;
+    text-rendering:optimizeLegibility; -webkit-font-smoothing:antialiased;
+  }
+  .tnum{font-variant-numeric:tabular-nums;}
+  .mono{font-family:var(--mono);}
+
+  /* ---- shell ---- */
+  .shell{
+    display:grid;
+    grid-template-columns:var(--sidebar-w) minmax(0,1fr);
+    gap:var(--gutter);
+    max-width:1100px; margin:0 auto;
+    padding:var(--s-7) var(--s-5) var(--s-6);
+  }
+
+  /* ---- sidebar ---- */
+  .sidebar{position:sticky; top:var(--s-7); align-self:start;}
+  .lockup{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--ink);}
+  .lockup svg{display:block;}
+  .wordmark{font-family:var(--serif); font-weight:600; font-size:22px; line-height:1; letter-spacing:-.01em;}
+  .wordmark .dot{color:var(--mint-ink);}
+  .kicker{
+    font-family:var(--mono); font-weight:600; font-size:11px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--ink-faint); margin:10px 0 0 0;
+  }
+  .sidebar hr{border:0; border-top:1px solid var(--rule); margin:var(--s-4) 0;}
+  .nav-group{margin-bottom:var(--s-4);}
+  .nav-label{
+    font-family:var(--mono); font-weight:600; font-size:11px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--mint-ink); margin:0 0 var(--s-2);
+  }
+  nav ul{list-style:none; margin:0; padding:0;}
+  nav a{
+    display:block; text-decoration:none; font-size:14px; line-height:1.9;
+    color:var(--ink-faint); padding-left:var(--s-3);
+    border-left:2px solid transparent;
+  }
+  nav a:hover{color:var(--ink-soft);}
+  nav a.active{color:var(--ink); border-left-color:var(--mint); font-weight:450;}
+
+  /* ---- content ---- */
+  .content{min-width:0;}
+  article{max-width:var(--content-max);}
+  .post-title{
+    font-family:var(--serif); font-weight:600; font-size:40px; line-height:1.1;
+    letter-spacing:-.01em; margin:0 0 var(--s-3);
+  }
+  .post-meta{
+    font-family:var(--mono); font-size:14px; color:var(--ink-faint);
+    margin:0 0 var(--s-4);
+  }
+  .rule{border:0; border-top:1px solid var(--rule); margin:var(--s-4) 0 var(--s-5);}
+
+  .eyebrow{
+    font-family:var(--mono); font-weight:600; font-size:12px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--mint-ink);
+    margin:var(--s-5) 0 var(--s-2);
+  }
+  h2.section{font-family:var(--serif); font-weight:600; font-size:26px; line-height:1.2; margin:0 0 var(--s-3);}
+  h3{font-family:var(--sans); font-weight:650; font-size:19px; line-height:1.3; margin:var(--s-4) 0 var(--s-2);}
+  p{margin:0 0 var(--s-3);}
+  .lead{font-size:19px; line-height:1.6; color:var(--ink-soft);}
+  a.body-link{
+    color:var(--mint-ink); text-decoration:underline; text-underline-offset:3px;
+    text-decoration-color:var(--rule); text-decoration-thickness:1px;
+  }
+  a.body-link:hover{text-decoration-color:var(--mint); text-decoration-thickness:2px;}
+
+  code{
+    font-family:var(--mono); font-size:.85em; background:var(--paper-2);
+    color:var(--ink); border-radius:var(--r-sm); padding:2px 6px; border:1px solid var(--rule);
+  }
+  pre{
+    font-family:var(--mono); font-size:14px; background:var(--paper-2); color:var(--ink);
+    border:1px solid var(--rule); border-left:2px solid var(--mint);
+    border-radius:var(--r-md); padding:var(--s-4); overflow-x:auto; margin:0 0 var(--s-4);
+  }
+  pre code{background:none; border:0; padding:0; font-size:14px;}
+
+  ul.body-list{margin:0 0 var(--s-3); padding-left:1.2em;}
+  ul.body-list li{margin-bottom:var(--s-2);}
+  ul.body-list li b{color:var(--ink);}
+
+  /* data callout strip */
+  .figures{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:0;
+    border:1px solid var(--rule); border-radius:var(--r-md); overflow:hidden; margin:var(--s-4) 0;
+  }
+  .figures .fig{padding:var(--s-4); border-right:1px solid var(--rule);}
+  .figures .fig:last-child{border-right:0;}
+  .fig .num{font-family:var(--mono); font-weight:600; font-size:30px; line-height:1; color:var(--ink); font-variant-numeric:tabular-nums;}
+  .fig .num .unit{color:var(--mint-ink); font-size:18px;}
+  .fig .cap{font-size:13px; color:var(--ink-faint); margin-top:var(--s-2);}
+
+  /* callouts */
+  .callout{border-radius:var(--r-md); padding:var(--s-4); border:1px solid; margin:var(--s-4) 0;}
+  .callout .co-label{font-family:var(--mono); font-weight:600; font-size:11px; letter-spacing:.14em; text-transform:uppercase; margin:0 0 var(--s-2);}
+  .callout p:last-child{margin-bottom:0;}
+  .callout.shipped{background:var(--mint-wash); border-color:var(--mint);}
+  .callout.shipped .co-label{color:var(--mint-ink);}
+  .callout.tinker{background:var(--amber-wash); border-color:var(--amber-ink);}
+  .callout.tinker .co-label{color:var(--amber-ink);}
+
+  /* pull-quote */
+  blockquote.pull{
+    margin:var(--s-5) 0; padding:var(--s-4); background:var(--mint-wash);
+    border-left:3px solid var(--mint); border-radius:0 var(--r-md) var(--r-md) 0;
+  }
+  blockquote.pull p{font-family:var(--serif); font-weight:400; font-size:24px; line-height:1.35; color:var(--ink); margin:0;}
+  blockquote.pull .attr{font-family:var(--mono); font-size:13px; color:var(--ink-faint); margin-top:var(--s-3); display:block;}
+
+  table.balance{border-collapse:collapse; width:100%; margin:var(--s-4) 0; font-size:15px;}
+  table.balance th{
+    font-family:var(--mono); font-weight:600; font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-faint); text-align:left; padding:var(--s-2) var(--s-3); border-bottom:1px solid var(--rule);
+  }
+  table.balance td{padding:var(--s-2) var(--s-3); border-bottom:1px solid var(--rule); color:var(--ink-soft);}
+  table.balance td.n{font-family:var(--mono); text-align:right; font-variant-numeric:tabular-nums; color:var(--ink);}
+
+  footer.page{
+    max-width:var(--content-max); margin-top:var(--s-6); padding-top:var(--s-4);
+    border-top:1px solid var(--rule); font-size:13px; color:var(--ink-faint);
+    display:flex; align-items:center; gap:10px;
+  }
+
+  /* ---- responsive ---- */
+  @media (max-width:880px){
+    .shell{grid-template-columns:1fr; gap:var(--s-5); padding:var(--s-5) var(--s-4) var(--s-5);}
+    .sidebar{position:static;}
+    .nav-group{margin-bottom:var(--s-3);}
+    nav ul{display:flex; flex-wrap:wrap; gap:var(--s-2) var(--s-4);}
+    nav a{padding-left:0; border-left:0;}
+    nav a.active{border-left:0; border-bottom:2px solid var(--mint); padding-bottom:2px;}
+    .post-title{font-size:32px;}
+    .figures{grid-template-columns:1fr;}
+    .figures .fig{border-right:0; border-bottom:1px solid var(--rule);}
+    .figures .fig:last-child{border-bottom:0;}
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="sidebar">
+    <a class="lockup" href="#" aria-label="console log home">
+      <!-- monochrome Neko mark -->
+      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+        <path d="M6 4 L11 12 Q17 9 23 12 L28 4 L27 15 Q31 19 31 24 Q31 31 17 31 Q3 31 3 24 Q3 19 7 15 Z"
+              fill="var(--ink)"/>
+        <circle cx="13" cy="20" r="1.7" fill="var(--paper)"/>
+        <circle cx="21" cy="20" r="1.7" fill="var(--paper)"/>
+        <path d="M15.5 24 Q17 25.4 18.5 24" stroke="var(--paper)" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+      </svg>
+      <span class="wordmark">console<span class="dot">·</span>log</span>
+    </a>
+    <p class="kicker">The Console Labs Monthly</p>
+
+    <hr>
+
+    <nav>
+      <div class="nav-group">
+        <p class="nav-label">pages</p>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Philosophy</a></li>
+          <li><a href="#">Purpose</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <p class="nav-label">writing</p>
+        <ul>
+          <li><a href="#">experiments</a></li>
+          <li><a href="#" class="active">blog</a></li>
+          <li><a href="#">playbook</a></li>
+        </ul>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- ================= CONTENT ================= -->
+  <main class="content">
+    <article>
+      <h1 class="post-title">Console Log: June 2026</h1>
+      <p class="post-meta tnum">JUN 2026 · neko-san · 6 min read</p>
+      <hr class="rule">
+
+      <!-- TL;DR -->
+      <p class="eyebrow">TL;DR</p>
+      <h2 class="section">A quiet month with loud numbers 📈</h2>
+      <p class="lead">We shipped Mochi Pay's swap-from-chat flow, watched ICY backing tick up,
+        and ran one experiment that flopped honestly. Small but sharp, as ever.</p>
+
+      <div class="figures">
+        <div class="fig">
+          <div class="num tnum">14,208<span class="unit"> swaps</span></div>
+          <div class="cap">routed through Mochi this month</div>
+        </div>
+        <div class="fig">
+          <div class="num tnum">$1.07<span class="unit">M</span></div>
+          <div class="cap">ICY treasury backing, up 4.2%</div>
+        </div>
+        <div class="fig">
+          <div class="num tnum">31<span class="unit"> PRs</span></div>
+          <div class="cap">merged across the active repos</div>
+        </div>
+      </div>
+
+      <!-- SHIPPED -->
+      <p class="eyebrow">Shipped</p>
+      <h2 class="section">What went out the door 🚢</h2>
+      <ul class="body-list">
+        <li><b>Mochi Pay: swap-from-chat.</b> You can now quote and execute a swap without
+          leaving the Discord thread. Why it matters: fewer steps between intent and settlement.</li>
+        <li><b>Tono context windows.</b> The LLM bot now remembers a channel's last few turns.
+          Why it matters: it stops asking what you already told it.</li>
+        <li><b>ICY snapshot endpoint.</b> A read-only <code>icy-ops snapshot</code> that prints
+          circulating supply against backing. Why it matters: the treasury reconciles in public.</li>
+      </ul>
+
+      <div class="callout shipped">
+        <p class="co-label">✅ Shipped</p>
+        <p>Mochi Pay swap-from-chat is live on mainnet for the Console Labs server. Roll-out to
+          partner servers is gated behind one more week of watching the fee math.</p>
+      </div>
+
+      <table class="balance">
+        <thead><tr><th>Release</th><th>Surface</th><th style="text-align:right">Δ users</th></tr></thead>
+        <tbody>
+          <tr><td>Mochi swap-from-chat</td><td>Discord</td><td class="n">+1,940</td></tr>
+          <tr><td>Tono context memory</td><td>Discord</td><td class="n">+612</td></tr>
+          <tr><td>ICY snapshot</td><td>CLI</td><td class="n">+18</td></tr>
+        </tbody>
+      </table>
+
+      <!-- THINKING -->
+      <p class="eyebrow">Thinking</p>
+      <h2 class="section">The part where we narrate ourselves 🧭</h2>
+      <p>We keep circling one question: how much of a wallet should live inside a chat app? The
+        swap-from-chat work pushed us toward an answer. Money tooling should meet people where
+        they already are, but it has to carry its own seatbelts. So we spent half the month not on
+        features but on the quote-confirm-settle handshake, the boring safety glue. Read the
+        <a class="body-link" href="#">design note</a> for the full reasoning.</p>
+
+      <blockquote class="pull">
+        <p>Small but sharp is not a size, it is a refusal. We refuse to ship the tool that does
+          nine things adequately.</p>
+        <span class="attr">, neko-san</span>
+      </blockquote>
+
+      <h3>One thing we tried that did not work</h3>
+      <p>We prototyped a gamified streak system for daily swaps. The idea was cute. The data was
+        not: it nudged people toward churn-y micro-transactions that helped nobody and looked like
+        a slot machine. We killed it after a week.</p>
+
+      <div class="callout tinker">
+        <p class="co-label">🧪 Heads up</p>
+        <p>The swap-streak experiment flopped. We are leaving the writeup public because the
+          house style is honesty, and because the failure is more useful than the pitch was.</p>
+      </div>
+
+      <pre><code><span style="color:var(--ink-faint)"># what the streak nudge actually did</span>
+median swap size  <span style="color:var(--mint-ink)">↓ 38%</span>
+swaps per user    <span style="color:var(--mint-ink)">↑ 5.1x</span>
+net fees retained <span style="color:var(--mint-ink)">~ flat</span>   <span style="color:var(--ink-faint)"># churn, not value</span></code></pre>
+
+      <!-- NEXT -->
+      <p class="eyebrow">Next</p>
+      <h2 class="section">What we are chasing 🎯</h2>
+      <p>Hardening the swap handshake for partner servers, a first pass at Tono summarizing a
+        channel on demand, and a long-overdue cleanup of the ICY reconcile job. Light intentions,
+        not a roadmap promise.</p>
+
+      <footer class="page">
+        <svg width="20" height="20" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+          <path d="M6 4 L11 12 Q17 9 23 12 L28 4 L27 15 Q31 19 31 24 Q31 31 17 31 Q3 31 3 24 Q3 19 7 15 Z" fill="var(--ink-faint)"/>
+        </svg>
+        <span>console·log · written by neko-san · <span class="mono">a Console Labs publication</span></span>
+      </footer>
+    </article>
+  </main>
+
+</div>
+</body>
+</html>
