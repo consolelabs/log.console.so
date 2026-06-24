@@ -1,6 +1,6 @@
 # Sub-goal 03: the reviewed publish flow
 
-**Merge policy:** gate
+**Merge policy:** auto
 **Time budget:** 1 calendar day after PR-02 merges
 **Proof:** run-table of the publish helper (dry-run + the staged result), plus 1-2 screenshots of the post live on log.console.so after Han triggers the deploy
 **Depends on:** 02

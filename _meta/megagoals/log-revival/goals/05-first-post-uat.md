@@ -1,11 +1,11 @@
 # Sub-goal 05: first real monthly post (UAT)
 
-**Merge policy:** gate
+**Merge policy:** auto (but this is the mega-goal's HELD-FINAL PR under gated-final: the loop prepares everything and opens it, then STOPS; Han's single end-review = merging this, which publishes the first post)
 **Time budget:** 1 calendar day, mostly Han's review time
 **Proof:** the drafted post (committed), 2-3 screenshots of it live on log.console.so (the rendered post, plus the homepage listing it), and a filled sign-off block
-**Depends on:** 02, 03
+**Depends on:** 02, 03, 07 (the first public post debuts on the new brand)
 **Branch:** chore/log-revival-05-uat
-**PR base:** feat/log-revival-03-publish
+**PR base:** main (fan-in: opened after 02, 03, and 07 merge)
 
 ## Outcome
 

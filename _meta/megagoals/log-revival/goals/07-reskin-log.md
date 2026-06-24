@@ -1,6 +1,6 @@
 # Sub-goal 07: reskin the log site to the new brand
 
-**Merge policy:** gate
+**Merge policy:** auto
 **Time budget:** 1 calendar day after PR-06 merges
 **Proof:** 2-3 before/after screenshots (homepage, a post, and mobile width) of the log site on the new brand, plus a token-by-token checklist against DESIGN.md
 **Depends on:** 06, 01
