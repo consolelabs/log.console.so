@@ -11,7 +11,7 @@
 
 - [x] 01-revive-build, local `make build` produces `public/` on the current toolchain (versions pinned), `auto`, PR #2
 - [x] 02-writing-tool, `logwriter <month>` emits a vault-ready in-voice draft from real repo signal, `auto`, PR #3
-- [ ] 03-publish-flow, one-command draft-only flow stages a post into the content repo + opens a PR (no direct push to live), `auto`, PR #
+- [x] 03-publish-flow, one-command draft-only flow stages a post into the content repo + opens a PR (no direct push to live), `auto`, PR #7
 - [ ] 04-monitoring, vps-mon catalog shows log.console.so uptime + freshness + publish-job as `monitored`, `auto`, PR #
 - [x] 06-design-system, `docs/brand/DESIGN.md` brand guideline locked via a multi-step process (audit, parallel divergent directions, critique, converge, mockup), `auto`, PR #5
 - [x] 07-reskin-log, log Hugo layouts + assets render on the DESIGN.md tokens, `auto`, PR #6
