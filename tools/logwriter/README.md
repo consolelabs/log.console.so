@@ -67,4 +67,18 @@ The key is resolved at run time and never hardcoded.
 - Output is a **draft**; a human edits before publishing. It also respects the
   privacy gate (do not publish embargoed/unannounced work).
 
+## Publishing (the draft-only release step)
+
+`publish` (a sibling script) takes a draft and stages it into the `consolelabs/content`
+vault repo on a branch, then opens a PR there and STOPS. It never pushes to the live
+site; merging the content PR is Han's hand.
+
+```
+./publish logwriter-out/console-log-2026-06.md --dry-run   # preview the plan
+./publish logwriter-out/console-log-2026-06.md             # open the content PR, stop
+```
+
+Flags: `--month YYYY-MM`, `--content-repo owner/name`, `--dry-run`. Full flow:
+`../../docs/publish-runbook.md`. Proof: `../../docs/proof/03-publish.md`.
+
 Tests: `env -u GOROOT go test ./...`. Proof: `docs/proof-of-done.md`.
