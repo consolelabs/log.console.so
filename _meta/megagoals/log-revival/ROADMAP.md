@@ -13,7 +13,7 @@
 - [x] 02-writing-tool, `logwriter <month>` emits a vault-ready in-voice draft from real repo signal, `auto`, PR #3
 - [ ] 03-publish-flow, one-command draft-only flow stages a post into the content repo + opens a PR (no direct push to live), `auto`, PR #
 - [ ] 04-monitoring, vps-mon catalog shows log.console.so uptime + freshness + publish-job as `monitored`, `auto`, PR #
-- [ ] 06-design-system, `docs/brand/DESIGN.md` brand guideline locked via a multi-step process (audit, parallel divergent directions, critique, converge, mockup), `auto`, PR #
+- [x] 06-design-system, `docs/brand/DESIGN.md` brand guideline locked via a multi-step process (audit, parallel divergent directions, critique, converge, mockup), `auto`, PR #5
 - [ ] 07-reskin-log, log Hugo layouts + assets render on the DESIGN.md tokens, `auto`, PR #
 - [ ] 05-first-post-uat, a real monthly post is live + Han-signed-off, `auto` (HELD-FINAL: opened then held for Han's end-review), PR #
 
