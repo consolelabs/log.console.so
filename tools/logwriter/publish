@@ -1,0 +1,113 @@
+#!/usr/bin/env bash
+# publish, the draft-only release step for the monthly Console Log.
+#
+# Takes a drafted post (logwriter output) and stages it into the consolelabs/content
+# vault repo on a branch, then opens a PR there and STOPS. Merging that content PR and
+# triggering the deploy stays Han's hand: nothing reaches the live site without it.
+#
+# Host-portable on purpose (no gh-pages internals): it only touches the content vault
+# + opens a PR, so it survives the future Cloudflare move. The existing GitHub Actions
+# pipeline (content main -> submodule dispatch -> log.console.so gh-pages) publishes on
+# merge.
+#
+# Usage:
+#   publish <draft.md> [--month YYYY-MM] [--content-repo owner/name] [--dry-run]
+#
+#   publish logwriter-out/console-log-2026-06.md            # stage + open content PR
+#   publish logwriter-out/console-log-2026-06.md --dry-run  # show the plan, no push/PR
+#
+# Requires: git, gh (authed with write access to the content repo).
+set -euo pipefail
+
+DRAFT="${1:-}"
+MONTH=""
+CONTENT_REPO="consolelabs/content"
+DRY_RUN=0
+
+shift || true
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --month) MONTH="$2"; shift 2 ;;
+    --content-repo) CONTENT_REPO="$2"; shift 2 ;;
+    --dry-run) DRY_RUN=1; shift ;;
+    *) echo "publish: unknown arg: $1" >&2; exit 2 ;;
+  esac
+done
+
+if [ -z "$DRAFT" ] || [ ! -f "$DRAFT" ]; then
+  echo "publish: pass a draft markdown file (got: '${DRAFT:-}')" >&2
+  echo "usage: publish <draft.md> [--month YYYY-MM] [--content-repo owner/name] [--dry-run]" >&2
+  exit 2
+fi
+
+# Resolve to an absolute path now, before we cd into the clone.
+DRAFT_ABS="$(cd "$(dirname "$DRAFT")" && pwd)/$(basename "$DRAFT")"
+
+# Derive YYYY-MM from --month, else from the filename (console-log-YYYY-MM.md), else
+# from the draft's front-matter date.
+if [ -z "$MONTH" ]; then
+  base="$(basename "$DRAFT")"
+  if [[ "$base" =~ ([0-9]{4}-[0-9]{2}) ]]; then
+    MONTH="${BASH_REMATCH[1]}"
+  else
+    MONTH="$(grep -m1 -E '^date:' "$DRAFT" | grep -oE '[0-9]{4}-[0-9]{2}' || true)"
+  fi
+fi
+if [[ ! "$MONTH" =~ ^[0-9]{4}-[0-9]{2}$ ]]; then
+  echo "publish: could not determine month (YYYY-MM); pass --month" >&2
+  exit 2
+fi
+
+BRANCH="log/${MONTH}"
+TARGET="blog/console-log-${MONTH}.md"
+TITLE="Console Log: ${MONTH}"
+
+echo "publish: month=${MONTH} repo=${CONTENT_REPO} branch=${BRANCH} target=${TARGET}"
+
+WORK="$(mktemp -d)"
+trap 'rm -rf "$WORK"' EXIT
+
+echo "publish: cloning ${CONTENT_REPO} (shallow)"
+gh repo clone "$CONTENT_REPO" "$WORK/content" -- --depth 1 >/dev/null 2>&1
+
+cd "$WORK/content"
+DEFAULT_BRANCH="$(git symbolic-ref --short HEAD)"
+git checkout -q -b "$BRANCH"
+
+mkdir -p "$(dirname "$TARGET")"
+cp "$DRAFT_ABS" "$TARGET"
+# Reduce churn: if the target already exists and is identical, bail loudly.
+git add "$TARGET"
+
+if git diff --cached --quiet; then
+  echo "publish: no change (the post already exists identically in ${CONTENT_REPO}); nothing to do" >&2
+  exit 0
+fi
+
+echo "publish: staged diff vs ${DEFAULT_BRANCH}:"
+git --no-pager diff --cached --stat
+
+if [ "$DRY_RUN" -eq 1 ]; then
+  echo
+  echo "publish: DRY RUN. Would do:"
+  echo "  git commit -m 'content: add ${TITLE}'"
+  echo "  git push -u origin ${BRANCH}"
+  echo "  gh pr create --repo ${CONTENT_REPO} --base ${DEFAULT_BRANCH} --head ${BRANCH} \\"
+  echo "    --title 'content: ${TITLE}' --body '<draft-only monthly post; merge to publish>'"
+  echo "publish: DRY RUN complete. No branch pushed, no PR opened, live site untouched."
+  exit 0
+fi
+
+git commit -q -m "content: add ${TITLE}"
+git push -q -u origin "$BRANCH"
+
+PR_URL="$(gh pr create --repo "$CONTENT_REPO" --base "$DEFAULT_BRANCH" --head "$BRANCH" \
+  --title "content: ${TITLE}" \
+  --body "Draft-only monthly Console Log for ${MONTH}, staged by \`tools/logwriter/publish\`.
+
+Review the post, then merge to publish: the existing Actions pipeline (content \`${DEFAULT_BRANCH}\` -> submodule dispatch -> log.console.so gh-pages) deploys it live. Nothing reaches the live site until this PR is merged.
+
+Generated draft; edit to taste before merging.")"
+
+echo "publish: opened content PR -> ${PR_URL}"
+echo "publish: STOP. Review + merge is Han's hand; the loop does not merge this."
