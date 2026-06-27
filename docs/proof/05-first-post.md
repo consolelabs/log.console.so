@@ -4,12 +4,15 @@ This is the mega-goal terminus and the one PR the loop does NOT merge. The loop
 prepared everything below and STOPPED; the remaining steps are Han's
 (fix the deploy secret, edit, merge, sign off).
 
-## Status: OPENED + HELD, blocked on a deploy-secret fix
+## Status: OPENED + HELD, READY for Han's review + merge (deploy unblocked 2026-06-28)
 
 All of 05's code prerequisites are merged: the writing tool (02, PR #3), the
 draft-only publish flow (03, PR #7), and the Arcade Neko reskin (07, PR #6). The
-first month's draft is written and staged. BUT the live publish is blocked by a
-pre-existing deploy failure (see below), so the post is not yet live.
+first month's draft is written and staged (content PR #4). The deploy-secret blocker
+that previously held this is RESOLVED (see below): `GH_PAT` was fixed 2026-06-28, the
+deploy now runs green, and the Arcade Neko reskin is LIVE. The only thing left is
+Han's end-review: review + merge content PR #4 (one caveat on the dispatch token,
+below). The post is not yet live only because it has not been merged.
 
 ## The drafted post
 
@@ -21,11 +24,26 @@ pre-existing deploy failure (see below), so the post is not yet live.
 - Staged into the content vault by the 03 flow: **consolelabs/content PR #4**
   (`blog/console-log-2026-06.md`, branch `log/2026-06`), open and awaiting merge.
 
-## BLOCKER (Han must clear before publish): deploy GH_PAT lost content access
+## RESOLVED 2026-06-28: deploy GH_PAT fixed
+
+> Han minted a fine-grained `github-console-deployer-token` (read on `consolelabs/content`)
+> and set it as the org `GH_PAT`. The "Deploy Hugo from Obsidian notes" workflow now
+> passes; the Arcade Neko reskin (07) is LIVE. The original blocker text is kept below
+> for the record.
+>
+> **New, smaller caveat for the publish step:** content's "Dispatch Workflow"
+> (`consolelabs/content/.github/workflows/main.yml`) pings log.console.so via a
+> SEPARATE secret, `CONSOLE_PAT`, last set 2023-09-11 (almost certainly also expired).
+> So merging content PR #4 may not auto-fire the deploy. Workaround that needs no
+> secret fix: after merging, run `gh workflow run dispatch.yml -R consolelabs/log.console.so`
+> (the "Update submodules" job) to pull the new post and deploy. Full fix (optional):
+> set `CONSOLE_PAT` to a token with `actions: write` on log.console.so.
+
+### Original blocker (RESOLVED, kept for the record)
 
 The log.console.so deploy (`.github/workflows/main.yml`, "Deploy Hugo from Obsidian
-notes") has been FAILING on every run since before this mega-goal (no success in the
-last 30 runs). It fails checking out the private `vault` submodule:
+notes") had been FAILING on every run since before this mega-goal (no success in the
+last 30 runs). It failed checking out the private `vault` submodule:
 
 ```
 git submodule update --init --recursive
@@ -46,13 +64,13 @@ including the merged Arcade Neko reskin (07). The live site still shows the old 
 
 ## Han's path to close 05 (the end-review)
 
-1. **Fix the deploy secret.** Regenerate `GH_PAT` (or re-authorize its consolelabs
-   SSO) with read access to `consolelabs/content`, update the org/repo Actions secret.
-   Re-run the failed "Deploy Hugo from Obsidian notes" workflow on `main`. Confirm the
-   reskin goes live (dark `#0d1117` console). This also unblocks sub-goal 07's live state.
-2. **Edit the draft** to taste (it is a draft; light taste pass expected, not a rescue).
-3. **Publish:** merge **consolelabs/content PR #4**. The deploy fires (submodule
-   dispatch -> log.console.so gh-pages) and the post goes live.
+1. ~~Fix the deploy secret.~~ DONE 2026-06-28 (`GH_PAT` fixed; deploy green; reskin live).
+2. **Review the draft.** Read content PR #4 (`gh pr view 4 -R consolelabs/content --web`).
+   Edit to taste on the `log/2026-06` branch (it is a draft; light pass expected). The
+   committed draft is privacy-trimmed; PR #4 holds the version that publishes.
+3. **Publish:** merge **consolelabs/content PR #4**, then run
+   `gh workflow run dispatch.yml -R consolelabs/log.console.so` (the manual dispatch
+   sidesteps the stale `CONSOLE_PAT`). The post goes live at `/console-log-2026-06/`.
 4. **Capture proof + sign off:** screenshot the live post + the homepage listing it
    into this folder (`05-live-post.png`, `05-home-listing.png`), and fill the block below.
 
