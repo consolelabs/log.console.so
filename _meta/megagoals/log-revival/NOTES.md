@@ -30,3 +30,7 @@ Remaining + their real prerequisites:
 - 05-first-post-uat: the held-final (Han's end-review); depends on 02/03/07.
 Decision points for Han: (a) rescope or run 04's vps-mon wiring; (b) confirm the GH_PAT deploy secret for 03/05; (c) whether to run the design track (06/07) now or in a focused session.
 ================================================
+
+2026-06-28 · GH_PAT deploy secret FIXED (Han minted a fine-grained `github-console-deployer-token`, set as the consolelabs org `GH_PAT`). The "Deploy Hugo from Obsidian notes" workflow now passes; the Arcade Neko reskin (07) is finally LIVE. This clears the deploy blocker on 03/05.
+2026-06-28 · sub-goal complete · 08-permalink-fix, PR #9, merged 4047665. `hugo.yaml` permalinks `blog: /:slug/` drops the redundant `/blog/` prefix; the doubled `/blog/log/` is gone (404 live), posts at root (`/log/`, `/shape-up/` 200), `/blog/` archive intact. Green + negative control in docs/verification/log-revival-08-permalink.md.
+2026-06-28 · STATE · build stack 01,02,03,06,07,08 merged + live. Remaining: 04-monitoring (blocked on vps-mon CF infra, unchanged) and 05-first-post-uat (held-final, PR #8 open; its deploy blocker is now cleared, so Han's end-review is unblocked: merge consolelabs/content PR #4 to publish the first post).

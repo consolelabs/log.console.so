@@ -44,12 +44,13 @@ Verdict: PASS  (without the rule the post reverts to the exact doubled /blog/log
 
 ## Live verification (after merge + deploy)
 
-Deploy chain confirmed working 2026-06-28 (GH_PAT fixed; the reskin deploy went
-green). Filled once PR #9 merges and gh-pages redeploys:
+PR #9 merged (`#9`, squash `4047665`); the gh-pages deploy ran green; live checks
+captured 2026-06-28:
 
-- [ ] `curl -o /dev/null -w '%{http_code}' https://log.console.so/log/`      -> 200
-- [ ] `curl -o /dev/null -w '%{http_code}' https://log.console.so/blog/log/` -> 404
-- [ ] `curl -o /dev/null -w '%{http_code}' https://log.console.so/blog/`     -> 200
+- [x] `curl -o /dev/null -w '%{http_code}' https://log.console.so/log/`      -> **200**
+- [x] `curl -o /dev/null -w '%{http_code}' https://log.console.so/blog/log/` -> **404** (doubled path gone)
+- [x] `curl -o /dev/null -w '%{http_code}' https://log.console.so/blog/`     -> **200** (archive intact)
+- [x] `curl -o /dev/null -w '%{http_code}' https://log.console.so/shape-up/` -> **200** (post at root)
 
 ## Reproduce
 

@@ -37,11 +37,12 @@ Negative control: before adding the `permalinks` block, the same build produced 
 
 ## Live verification (after merge + deploy)
 
-Filled once this PR merges and the gh-pages deploy runs (deploy chain confirmed working 2026-06-28 after the GH_PAT fix):
+PR #9 merged (squash `4047665`); deploy ran green; captured live 2026-06-28:
 
-- [ ] `curl -o /dev/null -w '%{http_code}' https://log.console.so/log/` -> 200
-- [ ] `curl -o /dev/null -w '%{http_code}' https://log.console.so/blog/log/` -> 404 (doubled path gone)
-- [ ] `https://log.console.so/blog/` -> 200 (archive list intact)
+- [x] `https://log.console.so/log/` -> **200**
+- [x] `https://log.console.so/blog/log/` -> **404** (doubled path gone)
+- [x] `https://log.console.so/blog/` -> **200** (archive list intact)
+- [x] `https://log.console.so/shape-up/` -> **200** (post at root)
 
 ## Reproduce
 
