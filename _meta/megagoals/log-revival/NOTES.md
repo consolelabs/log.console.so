@@ -2,6 +2,8 @@
 
 ## Active blockers
 
+[blocked] sub-goal 05 (first-post publish, the held-final) · symptom: the log.console.so deploy ("Deploy Hugo from Obsidian notes", `.github/workflows/main.yml`) fails on every run · failure: `git submodule update --init --recursive` cannot clone the private `vault` submodule (`consolelabs/content`): `remote: Repository not found ... fatal: clone of 'git@github.com:consolelabs/content.git' ... failed`. The workflow DOES wire `token: ${{ secrets.GH_PAT }}` into the `submodules: recursive` checkout, so the wiring is correct; `GH_PAT` itself lost read access to `consolelabs/content` (expired, or consolelabs SSO authorization lapsed). No successful deploy in the last 30 runs (broken since before this mega-goal). Consequence: the merged Arcade Neko reskin (07) is NOT live, and merging content PR #4 will NOT publish, until this is fixed. · prerequisite: Han regenerates / re-SSO-authorizes `GH_PAT` with read access to `consolelabs/content` + updates the Actions secret, then re-runs the deploy. Loop must not rotate secrets (pointer rule). · last verified: 2026-06-25
+
 [blocked] sub-goal 04 (monitoring) · symptom: wiring log.console.so into vps-mon · failure: (1) the uptime HTTP check requires inserting a row into the LIVE vps-mon D1 on Han's Cloudflare account (outward infra mutation); (2) the requested "freshness" + "publish-job-success" signals are NOT natively supported by vps-mon (no content-freshness check; a GitHub Action is not a vps-mon discovery source) and need new Worker code; (3) the monitoring config belongs in ops-toolkit/tools/vps-mon, not this repo (cross-repo). · prerequisite: Han runs/approves the vps-mon D1 change + decides whether to extend vps-mon for freshness/publish-job, OR rescopes 04 to uptime-only · last verified: 2026-06-25
 
 ## Proposed additions
@@ -21,18 +23,25 @@
 2026-06-25 HH:MM · foundation merged · PR #1 (kit adopt + context + scaffold) to main.
 2026-06-25 HH:MM · sub-goal complete · 01-revive-build, PR #2, merged cf4c338. Build revived on Hugo 0.163.3 (was 0.120.2); stack upgraded to latest per Han; obsidian-export rebuilt; CI de-staled; build-check.yml added as the mega-goal's PR CI. Negative-control proof.
 2026-06-25 HH:MM · sub-goal complete · 02-writing-tool, PR #3, merged 33f2c5f. Go tools/logwriter gathers a month's merged-PR signal (gh) + drafts in-voice (Anthropic API default, claude CLI fallback). Proven on June 2026 (155 PRs). Privacy-trimmed sample.
+2026-06-25 HH:MM · design pick · Han picked arcade-neko (overrode the loop's fintech-editorial recommendation): retro console/terminal, the Console=console pun, monochrome Neko character. DESIGN.md locked to it.
+2026-06-25 HH:MM · sub-goal complete · 06-design-system, PR #5, merged 2cac7ef. Multi-step design trail (audit, 3 parallel divergent directions, scoring, Han's pick, mockup). docs/brand/DESIGN.md locked.
+2026-06-25 HH:MM · sub-goal complete · 07-reskin-log, PR #6, merged 3bde63a. Hugo layouts + styles.scss reskinned to the Arcade Neko tokens (dark console, mono chrome, sans body, score block, Neko, coin-slot dividers). Local render proof; 0 mobile overflow (measured via Playwright; headless-Chrome screenshots were a viewport artifact). NOTE: merged but NOT live (deploy blocked, see 05 blocker).
+2026-06-25 HH:MM · sub-goal complete · 03-publish-flow, PR #7, merged d5b2a25. tools/logwriter/publish stages a draft into consolelabs/content on a branch + opens a PR (draft-only); proven with content PR #4, post absent from content main (404). Runbook at docs/publish-runbook.md.
+2026-06-25 HH:MM · BLOCKER found · the live deploy has been failing since before the mega-goal (GH_PAT lost access to the private content submodule). Blocks 07 going live + 05 publishing. See ## Active blockers.
+2026-06-25 HH:MM · held-final opened · 05-first-post-uat opened and HELD for Han. Draft staged (content PR #4); proof scaffold + sign-off block ready. Han's path: fix GH_PAT -> merge content #4 -> deploy -> sign off.
 
-==== CHECKPOINT, autonomous run, 2026-06-25 ====
-Done: foundation (PR #1), 01-revive-build (PR #2), 02-writing-tool (PR #3). All merged with proof + negative controls.
-Blocked: 04-monitoring (see ## Active blockers, needs Han's vps-mon CF infra + extensions).
-Remaining + their real prerequisites:
-- 06-design-system: unblocked, large (multi-agent design). On the critical path to 05.
-- 07-reskin-log: depends on 06.
-- 03-publish-flow: needs write access to consolelabs/content + the live deploy path (GH_PAT for the private-submodule checkout is unconfirmed; `gh secret list` returned empty).
-- 05-first-post-uat: the held-final (Han's end-review); depends on 02/03/07.
-Decision points for Han: (a) rescope or run 04's vps-mon wiring; (b) confirm the GH_PAT deploy secret for 03/05; (c) whether to run the design track (06/07) now or in a focused session.
+==== CHECKPOINT, autonomous run, 2026-06-25 (run 2) ====
+Merged this run: 06-design-system (PR #5), 07-reskin-log (PR #6), 03-publish-flow (PR #7). All with proof + negative controls. Plus PRs #1/#2/#3 from run 1.
+Held-final: 05-first-post-uat opened (PR #<see ROADMAP>), NOT merged. Draft staged at consolelabs/content PR #4.
+Blocked (both need Han, both unchanged-prerequisite):
+- 05 publish: GH_PAT lost access to consolelabs/content -> deploy fails -> nothing goes live (incl. the merged 07 reskin). Han fixes the secret.
+- 04 monitoring: vps-mon CF infra + extensions (unchanged).
+Han decisions: (a) FIX GH_PAT (regenerate / re-SSO-authorize for consolelabs/content) -> unblocks 07-live + 05-publish; (b) merge content PR #4 to publish the first post + fill the 05 sign-off; (c) rescope or run 04's vps-mon wiring.
 ================================================
 
 2026-06-28 · GH_PAT deploy secret FIXED (Han minted a fine-grained `github-console-deployer-token`, set as the consolelabs org `GH_PAT`). The "Deploy Hugo from Obsidian notes" workflow now passes; the Arcade Neko reskin (07) is finally LIVE. This clears the deploy blocker on 03/05.
 2026-06-28 · sub-goal complete · 08-permalink-fix, PR #9, merged 4047665. `hugo.yaml` permalinks `blog: /:slug/` drops the redundant `/blog/` prefix; the doubled `/blog/log/` is gone (404 live), posts at root (`/log/`, `/shape-up/` 200), `/blog/` archive intact. Green + negative control in docs/verification/log-revival-08-permalink.md.
 2026-06-28 · STATE · build stack 01,02,03,06,07,08 merged + live. Remaining: 04-monitoring (blocked on vps-mon CF infra, unchanged) and 05-first-post-uat (held-final, PR #8 open; its deploy blocker is now cleared, so Han's end-review is unblocked: merge consolelabs/content PR #4 to publish the first post).
+2026-06-28 · slug fix · `:slug` derived URLs from the title (-> /console-log-june-2026/); switched to `blog: /:contentbasename/` so the URL is the dated filename /console-log-2026-06/. PR #10. Runbook now documents slug-change + `aliases:` redirects.
+2026-06-28 · site metadata · copyright 2023->2026 + added `params.description` (posts with empty front-matter description shipped an empty meta/OG description). PR #11.
+2026-06-28 · MEGA-GOAL COMPLETE · 05 SHIPPED. Han authorized publish. content PR #4 merged -> manual `gh workflow run dispatch.yml` (CONSOLE_PAT stale) -> update-submodules -> deploy. LIVE + verified: https://log.console.so/console-log-2026-06/ (200, "Console Log: June 2026", og:description + © 2026). Only 04-monitoring remains (blocked on vps-mon CF infra). Open follow-ups in Proposed additions: de-obsidian, content-bak cleanup, CONSOLE_PAT rotation for auto-deploy.
