@@ -1,10 +1,6 @@
-<script type="text/javascript">
-  // Redirect the homepage to the running log post. Use the page's real permalink
-  // (Hugo-computed) instead of a hardcoded "/blog/log", which broke when posts moved
-  // off the /blog/ prefix to a root slug ( /log/ ). Future permalink changes follow.
-  window.location.replace("{{ (site.GetPage "/blog/log").RelPermalink }}");
-</script>
-
+{{/* The homepage IS the running log: render blog/log.md inline at the bare root ( / ),
+     no redirect. Visitors stay on https://log.console.so/ instead of being bounced to
+     /log/. */}}
 {{ partial "header.html" . }}
 
 {{ $homepage := .Site.GetPage "/blog/log" }}
