@@ -148,7 +148,7 @@ You can choose token to support from these source&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;Integrate new chain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/kekk/"&gt;Kekcoin&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/playbook/integrate-mochi-balances/"&gt;Leverage Mochi balances&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/playbook/meaningful-commit/"&gt;Meaningful commit message&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/mochi/"&gt;Mochi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-blackjack/"&gt;Mochi BlackJack&lt;/a&gt;&lt;/li&gt;
@@ -166,7 +166,7 @@ You can choose token to support from these source&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/pod-town/"&gt;Pod Town&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/purpose/"&gt;Purpose&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/rabby/"&gt;Rabby NFT&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://log.console.so/blog/shape-up/"&gt;Shape Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/shape-up/"&gt;Shape Up&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/playbook/shared-ui-lib/"&gt;Shared UI library in multiple platforms&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/data-aptos-chain/"&gt;Support APTOS chain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/data-avax-chain/"&gt;Support Avax chain&lt;/a&gt;&lt;/li&gt;
@@ -219,7 +219,7 @@ You can choose token to support from these source&lt;/p&gt;
 &lt;li&gt;𝖘𝖚𝖓 𝖋𝖎𝖗𝖊 [𝖓𝖋𝖆]&lt;/li&gt;
 &lt;li&gt;digdug&lt;/li&gt;
 &lt;li&gt;bimps: &lt;a href="https://twitter.com/bimpmeister"&gt;twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Shape Up</title><link>https://log.console.so/blog/shape-up/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/shape-up/</guid><description>&lt;h2 id="exploring"&gt;Exploring &lt;a href="#exploring"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Shape Up</title><link>https://log.console.so/shape-up/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/shape-up/</guid><description>&lt;h2 id="exploring"&gt;Exploring &lt;a href="#exploring"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We build up knowledge through collective team learning. This page is where lab members share their explorations of the financial world.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Every week, we host a presentation&lt;/strong&gt; to discuss our findings. This not only aids memory recall but also fosters a lasting learning culture within the team, keeping us updated on market trends.&lt;/p&gt;
 &lt;p&gt;We cover a range of topics, from basics like &amp;lsquo;6 jars budgeting methodology&amp;rsquo; to more current subjects like &amp;lsquo;web3 liquidity techniques&amp;rsquo;.&lt;/p&gt;</description></item><item><title>Emoji</title><link>https://log.console.so/experiments/emoji/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/emoji/</guid><description>&lt;p&gt;&lt;img src="https://log.console.so/experiments/../images/experiments/emoji/emoji_1.png" alt="images/experiments/emoji/emoji_1.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
@@ -277,7 +277,7 @@ Scope out the repo &lt;a href="https://github.com/consolelabs/log.console.so"&gt
 &lt;p&gt;@Console Labs, our primary goal is to rapidly introduce new features and gather user feedback as quickly as possible. We understand that this approach isn&amp;rsquo;t flawless and can lead to regression bugs. However, at this stage of our product development, we are content with this strategy.&lt;/p&gt;
 &lt;p&gt;The challenge arises when we aim to develop something new within a short timeframe, typically one week or even just two days. This typically involves creating a small set of new features, starting from gathering requirements, designing the features, and then implementing them on both the backend and frontend.&lt;/p&gt;</description></item><item><title>Data layer</title><link>https://log.console.so/playbook/data-layer/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/data-layer/</guid><description>&lt;p&gt;&lt;img src="https://log.console.so/playbook/../images/playbook/data-flow.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
 /&gt;&lt;/p&gt;
-&lt;p&gt;This data layer serves as the central source of information for various features such as tickers, price alerts, and token details. These features rely on the data within this layer to provide accurate and up-to-date information to users. In essence, it&amp;rsquo;s like the beating heart of the mochi ecosystem, ensuring that all the essential data is readily available for users to access and use.&lt;/p&gt;</description></item><item><title>Leverage Mochi balances</title><link>https://log.console.so/playbook/integrate-mochi-balances/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/integrate-mochi-balances/</guid><description/></item><item><title>Log</title><link>https://log.console.so/blog/log/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/log/</guid><description>&lt;p&gt;A list of changes and updates to our experiments.&lt;/p&gt;
+&lt;p&gt;This data layer serves as the central source of information for various features such as tickers, price alerts, and token details. These features rely on the data within this layer to provide accurate and up-to-date information to users. In essence, it&amp;rsquo;s like the beating heart of the mochi ecosystem, ensuring that all the essential data is readily available for users to access and use.&lt;/p&gt;</description></item><item><title>Leverage Mochi balances</title><link>https://log.console.so/playbook/integrate-mochi-balances/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/integrate-mochi-balances/</guid><description/></item><item><title>Log</title><link>https://log.console.so/log/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/log/</guid><description>&lt;p&gt;A list of changes and updates to our experiments.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;RSS feed, regular updates.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://newsletter.console.so"&gt;Newsletter&lt;/a&gt; for frens, monthly updates.&lt;/li&gt;
@@ -471,7 +471,7 @@ To deposit tokens into your Slack account, use the following command:
 
 &lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/cronjob-validate-emoji/"&gt;Mochi Raycast Extension&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/data-aptos-chain/"&gt;Support APTOS chain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/data-avax-chain/"&gt;Support Avax chain&lt;/a&gt;&lt;/li&gt;
@@ -516,7 +516,7 @@ To deposit tokens into your Slack account, use the following command:
 
 &lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/mochi/"&gt;Mochi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/wagmi/"&gt;WAGMI comics&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/playbook/integrate-mochi-balances/"&gt;Leverage Mochi balances&lt;/a&gt;&lt;/li&gt;
@@ -563,8 +563,8 @@ To deposit tokens into your Slack account, use the following command:
 &lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/about/"&gt;About Us&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://log.console.so/blog/shape-up/"&gt;Shape Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/shape-up/"&gt;Shape Up&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/contributors/"&gt;Contributors&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/neko/"&gt;Neko NFT&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/purpose/"&gt;Purpose&lt;/a&gt;&lt;/li&gt;

@@ -95,7 +95,7 @@
 &lt;li&gt;&lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;Integrate new chain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/kekk/"&gt;Kekcoin&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/playbook/integrate-mochi-balances/"&gt;Leverage Mochi balances&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/playbook/meaningful-commit/"&gt;Meaningful commit message&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/mochi/"&gt;Mochi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-blackjack/"&gt;Mochi BlackJack&lt;/a&gt;&lt;/li&gt;
@@ -113,7 +113,7 @@
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/pod-town/"&gt;Pod Town&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/purpose/"&gt;Purpose&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/rabby/"&gt;Rabby NFT&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://log.console.so/blog/shape-up/"&gt;Shape Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/shape-up/"&gt;Shape Up&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/playbook/shared-ui-lib/"&gt;Shared UI library in multiple platforms&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/data-aptos-chain/"&gt;Support APTOS chain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/data-avax-chain/"&gt;Support Avax chain&lt;/a&gt;&lt;/li&gt;
@@ -126,7 +126,7 @@
 &lt;li&gt;&lt;a href="https://log.console.so/earn/data-ton-chain/"&gt;Support TON chain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/earn/data-zksync-chain/"&gt;Support zkSync chain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://log.console.so/experiments/wagmi/"&gt;WAGMI comics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Shape Up</title><link>https://log.console.so/blog/shape-up/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/shape-up/</guid><description>&lt;h2 id="exploring"&gt;Exploring &lt;a href="#exploring"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Shape Up</title><link>https://log.console.so/shape-up/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/shape-up/</guid><description>&lt;h2 id="exploring"&gt;Exploring &lt;a href="#exploring"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We build up knowledge through collective team learning. This page is where lab members share their explorations of the financial world.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Every week, we host a presentation&lt;/strong&gt; to discuss our findings. This not only aids memory recall but also fosters a lasting learning culture within the team, keeping us updated on market trends.&lt;/p&gt;
 &lt;p&gt;We cover a range of topics, from basics like &amp;lsquo;6 jars budgeting methodology&amp;rsquo; to more current subjects like &amp;lsquo;web3 liquidity techniques&amp;rsquo;.&lt;/p&gt;</description></item><item><title>Emoji</title><link>https://log.console.so/experiments/emoji/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/emoji/</guid><description>&lt;p&gt;&lt;img src="https://log.console.so/experiments/../images/experiments/emoji/emoji_1.png" alt="images/experiments/emoji/emoji_1.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
@@ -139,7 +139,7 @@
 
 
 &lt;h2 id="mochi-more-than-just-money---its-about-connections"&gt;Mochi: More Than Just Money - It’s About Connections &lt;a href="#mochi-more-than-just-money---its-about-connections"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;When we think of social bonds in communities, and teams, we think of messages exchanged: compliments, encouragement, and teasing. But have you ever thought about the transactions hidden within these actions? How often have you wanted to send money or reward someone instantly, right in the midst of social platforms?&lt;/p&gt;</description></item><item><title>Pod Town</title><link>https://log.console.so/experiments/pod-town/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/pod-town/</guid><description/></item><item><title>Log</title><link>https://log.console.so/blog/log/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/log/</guid><description>&lt;p&gt;A list of changes and updates to our experiments.&lt;/p&gt;
+&lt;p&gt;When we think of social bonds in communities, and teams, we think of messages exchanged: compliments, encouragement, and teasing. But have you ever thought about the transactions hidden within these actions? How often have you wanted to send money or reward someone instantly, right in the midst of social platforms?&lt;/p&gt;</description></item><item><title>Pod Town</title><link>https://log.console.so/experiments/pod-town/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/pod-town/</guid><description/></item><item><title>Log</title><link>https://log.console.so/log/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/log/</guid><description>&lt;p&gt;A list of changes and updates to our experiments.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;RSS feed, regular updates.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://newsletter.console.so"&gt;Newsletter&lt;/a&gt; for frens, monthly updates.&lt;/li&gt;
