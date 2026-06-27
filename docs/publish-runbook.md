@@ -62,4 +62,25 @@ post is live in a few minutes.
 
 The dispatch/gh-pages chain needs the content repo's `GH_PAT` Actions secret. If a
 merge does not deploy, check the content repo's Actions run + that `GH_PAT` is present
-and unexpired. Do not mint or rotate it from the loop; flag it for Han.
+and unexpired. Do not mint or rotate it from the loop; flag it for Han. (Note: content's
+own dispatch step uses a SEPARATE `CONSOLE_PAT`; if that one is stale the deploy can be
+fired manually with `gh workflow run dispatch.yml -R consolelabs/log.console.so`.)
+
+## Post URLs (and changing them later)
+
+Posts resolve at a root slug derived from the FILENAME: `blog/console-log-2026-06.md`
+-> `https://log.console.so/console-log-2026-06/` (set by `permalinks: blog:
+/:contentbasename/` in `hugo.yaml`). The `/blog/` section archive list stays at `/blog/`.
+
+To give one post a different URL, add `slug: my-custom-path` to its front-matter (it
+overrides the filename rule for that post), or rename the file. **If the post is already
+published, changing its slug breaks the old URL** , add an alias so Hugo emits a redirect
+from the old path:
+
+```yaml
+---
+title: "Console Log: June 2026"
+slug: june-2026
+aliases: ["/console-log-2026-06/"]   # old URL -> redirects to the new one
+---
+```

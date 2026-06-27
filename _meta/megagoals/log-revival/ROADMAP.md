@@ -15,7 +15,8 @@
 - [ ] 04-monitoring, vps-mon catalog shows log.console.so uptime + freshness + publish-job as `monitored`, `auto`, PR #
 - [x] 06-design-system, `docs/brand/DESIGN.md` brand guideline locked via a multi-step process (audit, parallel divergent directions, critique, converge, mockup), `auto`, PR #5
 - [x] 07-reskin-log, log Hugo layouts + assets render on the DESIGN.md tokens, `auto`, PR #6
-- [ ] 05-first-post-uat, a real monthly post is live + Han-signed-off, `auto` (HELD-FINAL: opened then held for Han's end-review), PR #8 (BLOCKED on deploy GH_PAT fix; see NOTES)
+- [x] 05-first-post-uat, a real monthly post is live + Han-accepted, `auto` (HELD-FINAL; Han authorized publish 2026-06-28), PR #8 + content PR #4. LIVE: https://log.console.so/console-log-2026-06/ (200)
+- [x] 08-permalink-fix, a post resolves at a clean canonical slug instead of the redundant `/blog/log/`; permalink declared in `hugo.yaml`, `auto`, PR #9 (merged 4047665; live: /log/ 200, /blog/log/ 404, /blog/ 200)
 
 ## Dependencies
 
