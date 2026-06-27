@@ -3,9 +3,13 @@ title: Console Labs
 copyright: © 2023 ConsoleLabs.
 # log.console.so already says "log", so the /blog/ path prefix was redundant
 # (the legacy post blog/log.md rendered at the doubled /blog/log/). Posts now
-# resolve at a root slug (/<slug>/); the section archive list stays at /blog/.
+# resolve at a root slug from the FILENAME (:contentbasename), so the dated
+# monthly file console-log-YYYY-MM.md -> /console-log-YYYY-MM/. :slug would
+# derive from the title ("Console Log: June 2026" -> /console-log-june-2026/),
+# which is undated and unstable; basename keeps URLs dated + sortable. A post
+# can still override with front-matter `slug:`. Section archive list stays /blog/.
 permalinks:
-  blog: /:slug/
+  blog: /:contentbasename/
 languages:
   en:
     languageCode: en-us
