@@ -1,6 +1,6 @@
 baseURL: https://log.console.so/
 title: Console Labs
-copyright: © 2023 ConsoleLabs.
+copyright: © 2026 Console Labs.
 # log.console.so already says "log", so the /blog/ path prefix was redundant
 # (the legacy post blog/log.md rendered at the doubled /blog/log/). Posts now
 # resolve at a root slug from the FILENAME (:contentbasename), so the dated
@@ -15,6 +15,11 @@ languages:
     languageCode: en-us
     weight: 1
 params:
+  # Site-wide default for <meta name="description">, OG/Twitter description, and the
+  # JSON-LD; used whenever a page has no own .Description (e.g. posts with an empty
+  # front-matter description). Was unset, leaving those tags empty.
+  description: "The Console Labs lab journal: monthly notes on what we build, ship, and learn. Safe, accessible tooling, narrated honestly."
+  Copyright: "© 2026 Console Labs."
   author:
     email: han@console.so
     name: Han Ngo
