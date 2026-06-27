@@ -1,6 +1,11 @@
 baseURL: https://log.console.so/
 title: Console Labs
 copyright: © 2023 ConsoleLabs.
+# log.console.so already says "log", so the /blog/ path prefix was redundant
+# (the legacy post blog/log.md rendered at the doubled /blog/log/). Posts now
+# resolve at a root slug (/<slug>/); the section archive list stays at /blog/.
+permalinks:
+  blog: /:slug/
 languages:
   en:
     languageCode: en-us
