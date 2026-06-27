@@ -1,57 +1,590 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Console Logs on Console Labs</title><link>https://log.console.so/</link><description>Recent content in Console Logs on Console Labs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.console.so/index.xml" rel="self" type="application/rss+xml"/><item><title>Support Trending token</title><link>https://log.console.so/earn/support-trending-token/</link><pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/support-trending-token/</guid><description>Purpose Support the trending token for tip, deposit and withdraw on Mochi Source of trending token
-You can choose token to support from these source
-From the /ticker and /watchlist add. Check out the suggested list here. Binance Coinmarketcap/ Twitter, hastag $&amp;hellip; Token Priority to support
-The most recent and queried token by Mochi user The token on the chain that we have supported Token on Binance, CMC, Twitter Process support token</description></item><item><title>Landing - Mochi UI Kit</title><link>https://log.console.so/earn/mochi-uikit/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-uikit/</guid><description>Mochi UI Kit Landing (Designing - tab Marketing Website): Link</description></item><item><title>Landing - Neko Emoji</title><link>https://log.console.so/earn/emoji-landing/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/emoji-landing/</guid><description>check the design out here: Link</description></item><item><title>Pod Town Sunday</title><link>https://log.console.so/playbook/podtownsunday/</link><pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/podtownsunday/</guid><description>After a year with Pod Town Metaverse, we discovered that an informed and involved community is key to supporting our project. Whether it&amp;rsquo;s sharing news, being an advocate, or actively participating, a supportive community plays a vital role in a project&amp;rsquo;s success. Your insights and feedback matter, shaping our development. That&amp;rsquo;s why Console Labs isn&amp;rsquo;t just for us – it&amp;rsquo;s for the entire community.
-With the aim to make Console Labs become a community-driven team, we decided to take advantage of the Pod Town community which had been enriched through the NFT season, to pose every update of our products.</description></item><item><title>A Scrum Sprint</title><link>https://log.console.so/playbook/workflow/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/workflow/</guid><description>We work in an 1-week sprint at console labs. At the end of the sprint, we do the review and public announcement.
-A typical sprint of the Console Labs:
-8:30 am, Monday: There is a planning session between CEO and the product team. 2 pm, Wednesday: The product team review the work in the first half of the week. 4 pm, Friday: The team review all the work in the week, then release the weekly changelog at 6 pm.</description></item><item><title>Mochi Poll</title><link>https://log.console.so/earn/mochi-poll/</link><pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-poll/</guid><description>Requirement:
-Features:
-Poll Creation &amp;amp; Management: Set up a poll with specific questions and multiple options and a deadline. To finish creating a poll user must put some token in the poll which will be divided for all users vote for the poll. Generate a unique, sharable link upon poll completion. User Voting: The Access link to vote opens for everyone Require authentication using Discord, Twitter, or Wallet to vote. Users can only vote once, can change vote but cannot claim another reward.</description></item><item><title>Earn</title><link>https://log.console.so/bounty/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/bounty/</guid><description> Earn and Bounty Program Our earn and bounty program for all of the open-source work we do at Console Labs. A good portion of the earns and bounties help to improve quality-of-life for our community, creating bots and extensions for our messaging apps, and more serious work such as aggregating data from blockchains.
-id name product status 💰 Bounty 0 Support Klaytn chain 💿 Data Open $120 1 Support RONIN chain 💿 Data Open $180 2 Support Starknet chain 💿 Data Open $120 3 Support SUI chain 💿 Data Open $180 4 Landing - Neko Emoji 🖥 Web Open $150 5 Landing - Mochi UI Kit 🖥 Web Open $150 6 Support Trending token 💿 Data Open $120</description></item><item><title>Support APTOS chain</title><link>https://log.console.so/earn/data-aptos-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-aptos-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Support Avax chain</title><link>https://log.console.so/earn/data-avax-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-avax-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Support BRC-20 chain</title><link>https://log.console.so/earn/data-klaytn-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-klaytn-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Support Linea chain</title><link>https://log.console.so/earn/data-linea-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-linea-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Support OpBNB chain</title><link>https://log.console.so/earn/data-opbnb-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-opbnb-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Support RONIN chain</title><link>https://log.console.so/earn/data-ronin-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-ronin-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Support Starknet chain</title><link>https://log.console.so/earn/data-starknet-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-starknet-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Support SUI chain</title><link>https://log.console.so/earn/data-sui-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-sui-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Support TON chain</title><link>https://log.console.so/earn/data-ton-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-ton-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Support zkSync chain</title><link>https://log.console.so/earn/data-zksync-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-zksync-chain/</guid><description>References Guideline: add-new-chains.md</description></item><item><title>Mochi Raycast Extension</title><link>https://log.console.so/earn/cronjob-validate-emoji/</link><pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/cronjob-validate-emoji/</guid><description>Purpose: Create an alert channel for product team when emojis become invalid
-How: Create a cronjob (schedule Monday 2AM UTC)
-Get all emojis from table product_metadata_emojis Run a function to check (https://stackoverflow.com/questions/59808940/find-out-if-an-emoji-is-usable-in-discord-js) Alert channel #product-tracking Beautify output</description></item><item><title>Neko Butt NFT</title><link>https://log.console.so/experiments/neko-butt/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/neko-butt/</guid><description/></item><item><title>OG Card</title><link>https://log.console.so/experiments/neko-og/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/neko-og/</guid><description>OG Card: The Emblem of Originality
-The OG Card? It&amp;rsquo;s not just a token—it&amp;rsquo;s a legacy. Being an OG isn&amp;rsquo;t about being there first; it&amp;rsquo;s about being there with heart. And this card ensures you keep reaping the rewards of Pod Town&amp;rsquo;s evolution.
-OG Card NFT What&amp;rsquo;s a Pod Town OG Card Pod Town OG Card is an NFT Card made exclusively for OG Minters - people who have minted directly from pod.</description></item><item><title>Paw Fellowship</title><link>https://log.console.so/experiments/paw-fellowship/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/paw-fellowship/</guid><description>Paw Fellowship: The Golden Ticket
-Possessing the Paw Fellowship Card is akin to holding a master key—a key that unlocks the treasures of Pod Town Land &amp;amp; Tokens. This card, transferable and brimming with benefits, is the dream of every Town Builder and Grim Refugee.
-Paw Fellowship NFT 1. What is Paw Fellowship Card?
-It’s the ticket for your future whitelist (for Pod Town Land &amp;amp; Token). Also, it’s transferable. You can sell it on the secondary market and it will transfer the perks as well.</description></item><item><title>Rabby NFT</title><link>https://log.console.so/experiments/rabby/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/rabby/</guid><description>Rabby NFT</description></item><item><title>Index</title><link>https://log.console.so/site-index/</link><pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/site-index/</guid><description> Console Labs A Scrum Sprint About Us API-first development Blockchain event calendar Continuous Integration Contributors Data layer Earn Emoji Format a Neko profile How to work with emoji on Discord Integrate new chain Kekcoin Leverage Mochi balances Log Meaningful commit message Mochi Mochi BlackJack Mochi Extension Extension Mochi Poll Mochi Raycast Extension Mochi Raycast Extension Mochi Raycast Extension Mochi Rock Paper Scissor Neko Butt NFT Neko NFT OG Card Paw Fellowship Philosophy Pod Town Purpose Rabby NFT Shape Up Shared UI library in multiple platforms Support APTOS chain Support Avax chain Support Klaytn chain Support Linea chain Support OpBNB chain Support RONIN chain Support Starknet chain Support SUI chain Support TON chain Support zkSync chain WAGMI comics</description></item><item><title>Contributors</title><link>https://log.console.so/contributors/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/contributors/</guid><description>Here are people at Console Labs and contributors who give hands to make our experiments happened
-core neko-san: twitter, bsky hnh: github vincent: github tono: twitter contributors anna minh.cloud 0xLight owltrovert PAMsheep phucld: github trkhoi: github anhnh: github huynk: github phucnh: github Mashiro: github quang: github bien: github namnhce: github minhth: github vdhieu: github haongo138: github monotykamary: github Pod Town DAO 𝖘𝖚𝖓 𝖋𝖎𝖗𝖊 [𝖓𝖋𝖆] digdug bimps: twitter</description></item><item><title>Shape Up</title><link>https://log.console.so/blog/shape-up/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/shape-up/</guid><description>Exploring We build up knowledge through collective team learning. This page is where lab members share their explorations of the financial world.
-Every week, we host a presentation to discuss our findings. This not only aids memory recall but also fosters a lasting learning culture within the team, keeping us updated on market trends.
-We cover a range of topics, from basics like &amp;lsquo;6 jars budgeting methodology&amp;rsquo; to more current subjects like &amp;lsquo;web3 liquidity techniques&amp;rsquo;.</description></item><item><title>Emoji</title><link>https://log.console.so/experiments/emoji/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/emoji/</guid><description>From Meh to Magic: The Emoji Revolution In this bustling world of ads, we felt the urge to stand out. Everywhere we turned, a sea of brands clamored for a moment&amp;rsquo;s attention, but how many genuinely resonate?
-That&amp;rsquo;s the journey that led us to Cyber Neko Emojis. We didn’t just introduce a mascot; we gave life to Neko, an emblem of heartfelt connection. It’s not about fleeting promotions; it&amp;rsquo;s about forging a deep, lasting bond.</description></item><item><title>Kekcoin</title><link>https://log.console.so/experiments/kekk/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/kekk/</guid><description/></item><item><title>Mochi</title><link>https://log.console.so/experiments/mochi/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/mochi/</guid><description>Mochi is the ultimate payment application seamlessly integrated into your favorite social platforms - Discord and Telegram. Mochi is designed to revolutionize the way you send money to friends, family, and contacts while making your community even more engaging and convenient.
-Mochi: More Than Just Money - It’s About Connections When we think of social bonds in communities, and teams, we think of messages exchanged: compliments, encouragement, and teasing. But have you ever thought about the transactions hidden within these actions?</description></item><item><title>Neko NFT</title><link>https://log.console.so/experiments/neko/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/neko/</guid><description>tl;dr
-Contract: 0x7acee5d0acc520fab33b3ea25d4feef1ffebde73 Community: Discord Marketplace: PaintSwap Website: pod.town/neko The explosion of blockchain technology has given rise to numerous innovations. Among them, Non-Fungible Tokens (NFTs) have emerged as a frontier in the intersection between art, technology, and commerce. At the forefront of this wave is the Cyber Neko NFT experiment. We started it as our first experiment in web3.
-Cyber Neko NFT Cyber Neko is not just another NFT; it represents a blend of artistry, community, and technology.</description></item><item><title>Pod Town</title><link>https://log.console.so/experiments/pod-town/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/pod-town/</guid><description/></item><item><title>WAGMI comics</title><link>https://log.console.so/experiments/wagmi/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/wagmi/</guid><description>WAGMI is a super fun webcomic all about money stuff. We make cool and funny comics with our friends neko and mochi to help everyone with life&amp;rsquo;s wild moments. WAGMI is a super fun webcomic all about money stuff. We make cool and funny comics with our friends neko and experiments/mochi to help everyone with life&amp;rsquo;s wild moments.
-Check the comics: wagmicomics.com Facebook: facebook.com/wagmicomics RSS: wagmicomics.com/rss.xml Why WAGMI? After crafting tons of finance stuff and vibing with peeps from all walks of life, it hit us – it’s not just the young guns, but the adulting crew too, who need to level up their money smarts.</description></item><item><title>How to work with emoji on Discord</title><link>https://log.console.so/playbook/render-emoji/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/render-emoji/</guid><description>Emojis play a crucial role in Discord, enhancing the appearance and uniqueness of Discord content. We aim to utilize emojis to make our Bot better than others.
-However, managing emojis is not as simple as it may seem. Along our journey, we&amp;rsquo;ve encountered some important considerations.
-Product People first As engineers, we don&amp;rsquo;t make decisions about designs or changes to components. Initially, we hardcoded the emoji ID directly into our Discord bot&amp;rsquo;s source code.</description></item><item><title>About Us</title><link>https://log.console.so/about/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/about/</guid><description>Intro We’re Console Labs. We’re all about that finance and making things fun. We’re diving deep into tech, data, web3, blockchain, and jotting down all the cool stuff we find, hoping to whip up something rad for everyone online.
-Peep our philosophy and purpose, or keep it fresh by catching our monthly updates.
-Oh, and btw, we’re like a sibling to Dwarves.
-Website 💻 This site is where we show our face to the world.</description></item><item><title>API-first development</title><link>https://log.console.so/playbook/api-first/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/api-first/</guid><description>Background @Console Labs, our primary goal is to rapidly introduce new features and gather user feedback as quickly as possible. We understand that this approach isn&amp;rsquo;t flawless and can lead to regression bugs. However, at this stage of our product development, we are content with this strategy.
-The challenge arises when we aim to develop something new within a short timeframe, typically one week or even just two days. This typically involves creating a small set of new features, starting from gathering requirements, designing the features, and then implementing them on both the backend and frontend.</description></item><item><title>Data layer</title><link>https://log.console.so/playbook/data-layer/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/data-layer/</guid><description>This data layer serves as the central source of information for various features such as tickers, price alerts, and token details. These features rely on the data within this layer to provide accurate and up-to-date information to users. In essence, it&amp;rsquo;s like the beating heart of the mochi ecosystem, ensuring that all the essential data is readily available for users to access and use.
-Raw Data The raw data that powers our system originates from blockchain transaction data, which we can retrieve from various RPC sources.</description></item><item><title>Leverage Mochi balances</title><link>https://log.console.so/playbook/integrate-mochi-balances/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/integrate-mochi-balances/</guid><description/></item><item><title>Log</title><link>https://log.console.so/blog/log/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/log/</guid><description>A list of changes and updates to our experiments.
-RSS feed, regular updates. Newsletter for frens, monthly updates. January 2024 As the new year has come, we only focus on bringing mochi from beta to the production stage. On Mochi.gg, we introduce these features:
-Overview: An overview of assets and transaction history Explore: To help users explore the dynamics of our vibrant community, Mochi allows users to track, analyze, and optimize transactions to understand app performance and user behavior.</description></item><item><title>Meaningful commit message</title><link>https://log.console.so/playbook/meaningful-commit/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/meaningful-commit/</guid><description>Problems &amp;amp; Background Have you ever been frustrated by reading an app&amp;rsquo;s changelog that&amp;rsquo;s full of unhelpful information? It&amp;rsquo;s like they don&amp;rsquo;t care about their product or their users. You might have seen changelogs like this:
-2.11.4
-Some bugs fixed or
-Fix bugs and improve UI/UX These changelogs are confusing and don&amp;rsquo;t provide any meaningful insights for users. Changelogs are meant for people, not machines. They serve as a way for us to communicate with our users.</description></item><item><title>Philosophy</title><link>https://log.console.so/philosophy/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/philosophy/</guid><description>We’re all about shaping a future where tech is chill, super fun, and all about those money vibes. Here’s the scoop on the four main vibes guiding our crew:
-Small but Sharp 🔍 We’re digging the idea of creating things that are small but ace at what they do. We aim for simplicity and effectiveness, making sure every tool we make nails its job and stands out in its own way.</description></item><item><title>Continuous Integration</title><link>https://log.console.so/playbook/ci-cd/</link><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/ci-cd/</guid><description>What Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests. While automated testing is not strictly part of CI it is typically implied.
-One of the key benefits of integrating regularly is that you can detect errors quickly and locate them more easily. As each change introduced is typically small, pinpointing the specific change that introduced a defect can be done quickly.</description></item><item><title>Format a Neko profile</title><link>https://log.console.so/playbook/format-profile-number/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/format-profile-number/</guid><description>Intro When it comes to UI rendering, there&amp;rsquo;s no one-size-fits-all &amp;ldquo;correct way.&amp;rdquo; This is especially true for us because we&amp;rsquo;re building across various platforms and ecosystems, each with its unique user behavior. Consequently, there&amp;rsquo;s no universal UI rendering approach that suits every situation.
-In today&amp;rsquo;s article, we&amp;rsquo;ll delve into our first component: the &amp;ldquo;Neko Profile.&amp;rdquo;
-What is an Neko Profile A Neko profile is what we call our &amp;ldquo;user.&amp;rdquo; This term applies not only to Mochi but also to everything we&amp;rsquo;ve built, from Pod Town to NFTs and beyond.</description></item><item><title>Integrate new chain</title><link>https://log.console.so/playbook/add-new-chains/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/add-new-chains/</guid><description>In the rapidly evolving blockchain industry, it&amp;rsquo;s crucial to keep up with the pace of change. Here&amp;rsquo;s a quick overview of how we seamlessly integrate new chains into the Mochi system, with the caveat that this method is specific to EVM-based blockchains:
-Product Preparation Pull raw data into clickhouse Ticker, Watchlist Token Info Wallet tracking on this new chain Show assets in profile Transfer / Tip / Airdrop / Payme / Paylink Withdraw Deposit Product Preparation In this section, most of the tasks require manual handling.</description></item><item><title>Purpose</title><link>https://log.console.so/purpose/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/purpose/</guid><description>Finance Frenzy Everyone is in pursuit of money &amp;amp; happiness. Money&amp;rsquo;s a universal symbol representing the value of our hard work. While we’re all working to create value, those in the finance sector are trading these values, often reaping the benefits.
-With the advancement of technology, accessing financial data has become straightforward, especially with the development of on-chain technologies. The financial world is continuously evolving with new concepts and inventions, but its core principles remain the same.</description></item><item><title>Shared UI library in multiple platforms</title><link>https://log.console.so/playbook/shared-ui-lib/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/shared-ui-lib/</guid><description>Background Earlier this year, we introduced a new version of Telegram for Mochi, but it came with some new challenges.
-Up until now, we&amp;rsquo;ve been using a single backend system to support all of our services. This approach was taken to ensure a smooth experience for both users and engineers across different platforms. However, a problem arose when it came to the user interface. We found ourselves dealing with two different sets of rules (Discord &amp;amp; Telegram) for how the interface should look and behave.</description></item><item><title>Mochi Raycast Extension</title><link>https://log.console.so/earn/mochi-tip-bot-on-slack/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-tip-bot-on-slack/</guid><description>Overview We want to create a new Slack version of Mochi tip bot
-Features for MVP /deposit /tip : @username, #channel : support integer and decimal : Cryptocurrencies symbol /withdraw /ticker Interface /deposit
-Help menu: when users enter only /deposit
-*private mode
-:moneybag: Deposit Tokens To deposit tokens into your Slack account, use the following command: /deposit &amp;lt;token&amp;gt; /deposit eth :one: Replace &amp;lt;token&amp;gt; with the token symbol you want to deposit.</description></item><item><title>Mochi Rock Paper Scissor</title><link>https://log.console.so/earn/mochi-rock-payer-scissor/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-rock-payer-scissor/</guid><description>Rock Paper Scissor Discord Create a New Game Users can initiate a new Rock-Paper-Scissors game with the following parameters:
-/rps new &amp;lt;player(s)&amp;gt; &amp;lt;amount&amp;gt; &amp;lt;token&amp;gt; &amp;lt;rounds&amp;gt;
-&amp;lt;player(s)&amp;gt;: Tag Discord users to specifically invite them to the game. Only tagged users can participate. number of users If a number is provided, it specifies the maximum number of players. &amp;lt;amount&amp;gt;: The amount to bet. &amp;lt;token&amp;gt;: The type of token to bet (e.g., icy, BTC, ETH).</description></item><item><title>Blockchain event calendar</title><link>https://log.console.so/earn/mochi-blockchain-event-calendar/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-blockchain-event-calendar/</guid><description>1/ Get data from: https://coinmarketcal.com/en/?page=3
-2/ Render list of popular events, like: ETH, BTC, SOL, Token2049 …, support pagination
-3/ Search event via keyword
-4/ Users can submit their own event, with tag local and link to join, also alert a msg to mochi discord
-5/ Expose API</description></item><item><title>Mochi BlackJack</title><link>https://log.console.so/earn/mochi-blackjack/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-blackjack/</guid><description>Overview We are looking to develop a Blackjack game as a Discord bot. The bot will allow users to play Blackjack by interacting with it through various commands. Users will be required to transfer tokens from their wallet to the game&amp;rsquo;s wallet as a deposit to participate. The bot will manage the game logic, including dealing cards, calculating winnings, and transferring tokens back to the winner&amp;rsquo;s wallet. Below are the detailed requirements for this project.</description></item><item><title>Mochi Raycast Extension</title><link>https://log.console.so/earn/mochi-raycast-extension/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-raycast-extension/</guid><description>Deadline: 5 May, 11:59 PM (Indian Standard Time)
-About the Bounty Mochi is a platform that allows Discord server owners to integrate trading supporting tools called Mochi APIs. Mochi APIs now provides Token and NFT Data query: User can query Token price, marketcap, and movement; NFT rarity and raking and sales which support the investment decision.
-Superteam is sponsoring a bounty for developers to use Mochi APIs to build a Raycast extension, which meets the following requirement: Users should be able to use the Raycast extension to query the token price, info and movement; convert token; and NFT rarity, ranking and sales.</description></item><item><title/><link>https://log.console.so/members/anna/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/anna/</guid><description> anna contact - Written Notes Emoji</description></item><item><title/><link>https://log.console.so/members/hnh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/hnh/</guid><description> hnh contact - Written Notes Log Mochi Raycast Extension Support APTOS chain Support Avax chain Support Linea chain Support Klaytn chain Support OpBNB chain Support Starknet chain Support RONIN chain Support SUI chain Support TON chain Support zkSync chain Blockchain event calendar Mochi Raycast Extension Mochi Extension Extension Integrate new chain Continuous Integration API-first development Data layer Format a Neko profile Leverage Mochi balances Meaningful commit message How to work with emoji on Discord Shared UI library in multiple platforms Earn</description></item><item><title/><link>https://log.console.so/members/minh_cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/minh_cloud/</guid><description> minh_cloud contact - Written Notes Log Mochi WAGMI comics Leverage Mochi balances A Scrum Sprint</description></item><item><title/><link>https://log.console.so/members/monotykamary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/monotykamary/</guid><description> monotykamary contact - Written Notes Earn</description></item><item><title/><link>https://log.console.so/members/neko-san/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/neko-san/</guid><description> neko-san contact https://twitter.com/abaddeed
-https://bsky.app/profile/han.bsky.social Written Notes About Us Log Shape Up Contributors Neko NFT Purpose Philosophy</description></item><item><title/><link>https://log.console.so/members/vincent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/vincent/</guid><description> vincent contact - Written Notes</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Console Logs on Console Labs</title><link>https://log.console.so/</link><description>Recent content in Console Logs on Console Labs</description><generator>Hugo</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.console.so/index.xml" rel="self" type="application/rss+xml"/><item><title>Support Trending token</title><link>https://log.console.so/earn/support-trending-token/</link><pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/support-trending-token/</guid><description>&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Support the trending token for tip, deposit and withdraw on Mochi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Source of trending token&lt;/strong&gt;&lt;br&gt;
+You can choose token to support from these source&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;From the /ticker and /watchlist add. Check out the suggested list &lt;a href="https://docs.google.com/spreadsheets/d/1yNJnRNu85CLJ4dNI6LDkVU6IW10pzd8KgkceTauSZ_Q/edit#gid=1495581261"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.binance.com/en/markets/overview" title="https://www.binance.com/en/markets/overview"&gt;Binance&lt;/a&gt; &lt;a href="https://coinmarketcap.com/trending-cryptocurrencies/" title="https://coinmarketcap.com/trending-cryptocurrencies/"&gt;Coinmarketcap/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter, hastag $&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Token Priority to support&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The most recent and queried token by Mochi user&lt;/li&gt;
+&lt;li&gt;The token on the chain that we have supported&lt;/li&gt;
+&lt;li&gt;Token on Binance, CMC, Twitter&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Process support token&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Landing - Mochi UI Kit</title><link>https://log.console.so/earn/mochi-uikit/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-uikit/</guid><description>&lt;p&gt;Mochi UI Kit Landing (Designing - tab Marketing Website): &lt;a href="https://www.figma.com/file/2Og5Efa7uqdLXtubUQbqGh/Mochi?type=design&amp;amp;node-id=9236%3A57800&amp;amp;mode=design&amp;amp;t=VZANEGQjUSkR8yY4-1"&gt;Link&lt;/a&gt;&lt;br&gt;
+&lt;img src="https://log.console.so/earn/../images/earn/Mochi_UI_Kit.png" alt="images/earn/Mochi_UI_Kit.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/p&gt;</description></item><item><title>Landing - Neko Emoji</title><link>https://log.console.so/earn/emoji-landing/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/emoji-landing/</guid><description>&lt;p&gt;check the design out here: &lt;a href="https://www.figma.com/file/Z0xKmyY2odsWxq0Swz1OH2/Neko-Sticker-Website?type=design&amp;amp;node-id=1-7042&amp;amp;mode=design&amp;amp;t=xbRmKR546Ee3KvsO-0"&gt;Link&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Pod Town Sunday</title><link>https://log.console.so/playbook/podtownsunday/</link><pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/podtownsunday/</guid><description>&lt;p&gt;After a year with Pod Town Metaverse, we discovered that an informed and involved community is key to supporting our project. Whether it&amp;rsquo;s sharing news, being an advocate, or actively participating, a supportive community plays a vital role in a project&amp;rsquo;s success. Your insights and feedback matter, shaping our development. That&amp;rsquo;s why Console Labs isn&amp;rsquo;t just for us – it&amp;rsquo;s for the entire community.&lt;/p&gt;
+&lt;p&gt;With the aim to make Console Labs become a community-driven team, we decided to take advantage of the Pod Town community which had been enriched through the NFT season, to pose every update of our products.&lt;/p&gt;</description></item><item><title>A Scrum Sprint</title><link>https://log.console.so/playbook/workflow/</link><pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/workflow/</guid><description>&lt;p&gt;We work in an 1-week sprint at console labs. At the end of the sprint, we do the review and public announcement.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://log.console.so/playbook/../images/playbook/console_workflow.png" alt="images/playbook/console_workflow.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/p&gt;
+&lt;p&gt;A typical sprint of the Console Labs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;8:30 am, Monday: There is a planning session between CEO and the product team.&lt;/li&gt;
+&lt;li&gt;2 pm, Wednesday: The product team review the work in the first half of the week.&lt;/li&gt;
+&lt;li&gt;4 pm, Friday: The team review all the work in the week, then release the weekly changelog at 6 pm.&lt;/li&gt;
+&lt;li&gt;6 pm, Saturday: The team release the build on production and do the testing.&lt;/li&gt;
+&lt;li&gt;6 pm, Sunday: The team release the note on Pod Town Sunday about the change in a sprint.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Mochi Poll</title><link>https://log.console.so/earn/mochi-poll/</link><pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-poll/</guid><description>&lt;p&gt;Requirement:&lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Poll Creation &amp;amp; Management:
+&lt;ul&gt;
+&lt;li&gt;Set up a poll with specific questions and multiple options and a deadline.&lt;/li&gt;
+&lt;li&gt;To finish creating a poll user must put some token in the poll which will be divided for all users vote for the poll.&lt;/li&gt;
+&lt;li&gt;Generate a unique, sharable link upon poll completion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;User Voting:
+&lt;ul&gt;
+&lt;li&gt;The Access link to vote opens for everyone&lt;/li&gt;
+&lt;li&gt;Require authentication using Discord, Twitter, or Wallet to vote.&lt;/li&gt;
+&lt;li&gt;Users can only vote once, can change vote but cannot claim another reward.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reward Distribution: After the poll ends (deadline), the user receives the reward.&lt;/li&gt;
+&lt;li&gt;Visualization &amp;amp; Results: Allow poll creators to view outcomes in real time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Design: &lt;a href="https://www.figma.com/file/2Og5Efa7uqdLXtubUQbqGh/Mochi?type=design&amp;amp;node-id=6952%3A88083&amp;amp;mode=design&amp;amp;t=nl5zsbfy8SeKer2h-1"&gt;Design&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Earn</title><link>https://log.console.so/bounty/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/bounty/</guid><description>&lt;h2 id="earn-and-bounty-program"&gt;Earn and Bounty Program &lt;a href="#earn-and-bounty-program"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Our earn and bounty program for all of the open-source work we do at Console Labs. A good portion of the earns and bounties help to improve quality-of-life for our community, creating bots and extensions for our messaging apps, and more serious work such as aggregating data from blockchains.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;id&lt;/th&gt;
+					&lt;th&gt;name&lt;/th&gt;
+					&lt;th&gt;product&lt;/th&gt;
+					&lt;th&gt;status&lt;/th&gt;
+					&lt;th&gt;💰 Bounty&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;0&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://log.console.so/earn/data-klaytn-chain/"&gt;Support Klaytn chain&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;💿 Data&lt;/td&gt;
+					&lt;td&gt;Open&lt;/td&gt;
+					&lt;td&gt;$120&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://log.console.so/earn/data-ronin-chain/"&gt;Support RONIN chain&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;💿 Data&lt;/td&gt;
+					&lt;td&gt;Open&lt;/td&gt;
+					&lt;td&gt;$180&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://log.console.so/earn/data-starknet-chain/"&gt;Support Starknet chain&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;💿 Data&lt;/td&gt;
+					&lt;td&gt;Open&lt;/td&gt;
+					&lt;td&gt;$120&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://log.console.so/earn/data-sui-chain/"&gt;Support SUI chain&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;💿 Data&lt;/td&gt;
+					&lt;td&gt;Open&lt;/td&gt;
+					&lt;td&gt;$180&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;4&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://log.console.so/earn/emoji-landing/"&gt;Landing - Neko Emoji&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;🖥 Web&lt;/td&gt;
+					&lt;td&gt;Open&lt;/td&gt;
+					&lt;td&gt;$150&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;5&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://log.console.so/earn/mochi-uikit/"&gt;Landing - Mochi UI Kit&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;🖥 Web&lt;/td&gt;
+					&lt;td&gt;Open&lt;/td&gt;
+					&lt;td&gt;$150&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;6&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://log.console.so/earn/support-trending-token/"&gt;Support Trending token&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;💿 Data&lt;/td&gt;
+					&lt;td&gt;Open&lt;/td&gt;
+					&lt;td&gt;$120&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Support APTOS chain</title><link>https://log.console.so/earn/data-aptos-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-aptos-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Support Avax chain</title><link>https://log.console.so/earn/data-avax-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-avax-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Support BRC-20 chain</title><link>https://log.console.so/earn/data-klaytn-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-klaytn-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Support Linea chain</title><link>https://log.console.so/earn/data-linea-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-linea-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Support OpBNB chain</title><link>https://log.console.so/earn/data-opbnb-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-opbnb-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Support RONIN chain</title><link>https://log.console.so/earn/data-ronin-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-ronin-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Support Starknet chain</title><link>https://log.console.so/earn/data-starknet-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-starknet-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Support SUI chain</title><link>https://log.console.so/earn/data-sui-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-sui-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Support TON chain</title><link>https://log.console.so/earn/data-ton-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-ton-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Support zkSync chain</title><link>https://log.console.so/earn/data-zksync-chain/</link><pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/data-zksync-chain/</guid><description>&lt;p&gt;References Guideline: &lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;add-new-chains.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Mochi Raycast Extension</title><link>https://log.console.so/earn/cronjob-validate-emoji/</link><pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/cronjob-validate-emoji/</guid><description>&lt;p&gt;Purpose: Create an alert channel for product team when emojis become invalid&lt;/p&gt;
+&lt;p&gt;How: Create a cronjob (schedule Monday 2AM UTC)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Get all emojis from table &lt;code&gt;product_metadata_emojis&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run a function to check (&lt;a href="https://stackoverflow.com/questions/59808940/find-out-if-an-emoji-is-usable-in-discord-js"&gt;https://stackoverflow.com/questions/59808940/find-out-if-an-emoji-is-usable-in-discord-js&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Alert channel #product-tracking&lt;/li&gt;
+&lt;li&gt;Beautify output&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Neko Butt NFT</title><link>https://log.console.so/experiments/neko-butt/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/neko-butt/</guid><description/></item><item><title>OG Card</title><link>https://log.console.so/experiments/neko-og/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/neko-og/</guid><description>&lt;p&gt;&lt;strong&gt;OG Card: The Emblem of Originality&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The OG Card? It&amp;rsquo;s not just a token—it&amp;rsquo;s a legacy. Being an OG isn&amp;rsquo;t about being there first; it&amp;rsquo;s about being there with heart. And this card ensures you keep reaping the rewards of Pod Town&amp;rsquo;s evolution.&lt;/p&gt;
+
+
+&lt;h2 id="og-card-nft"&gt;OG Card NFT &lt;a href="#og-card-nft"&gt;&lt;/a&gt;&lt;/h2&gt;
+
+
+&lt;h3 id="whats-a-pod-town-og-card"&gt;What&amp;rsquo;s a Pod Town OG Card &lt;a href="#whats-a-pod-town-og-card"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Pod Town OG Card is an NFT Card made exclusively for OG Minters - people who have minted directly from &lt;a href="http://pod.so"&gt;pod.so&lt;/a&gt; website.&lt;/p&gt;</description></item><item><title>Paw Fellowship</title><link>https://log.console.so/experiments/paw-fellowship/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/paw-fellowship/</guid><description>&lt;p&gt;&lt;strong&gt;Paw Fellowship: The Golden Ticket&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Possessing the Paw Fellowship Card is akin to holding a master key—a key that unlocks the treasures of Pod Town Land &amp;amp; Tokens. This card, transferable and brimming with benefits, is the dream of every Town Builder and Grim Refugee.&lt;/p&gt;
+
+
+&lt;h2 id="paw-fellowship-nft"&gt;Paw Fellowship NFT &lt;a href="#paw-fellowship-nft"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1. What is Paw Fellowship Card?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It’s the ticket for your future whitelist (for Pod Town Land &amp;amp; Token). Also, it’s transferable. You can sell it on the secondary market and it will transfer the perks as well.&lt;/p&gt;</description></item><item><title>Rabby NFT</title><link>https://log.console.so/experiments/rabby/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/rabby/</guid><description>&lt;p&gt;Rabby NFT&lt;/p&gt;</description></item><item><title>Index</title><link>https://log.console.so/site-index/</link><pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/site-index/</guid><description>&lt;h2 id="console-labs"&gt;Console Labs &lt;a href="#console-labs"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/workflow/"&gt;A Scrum Sprint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/about/"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/api-first/"&gt;API-first development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-blockchain-event-calendar/"&gt;Blockchain event calendar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/ci-cd/"&gt;Continuous Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/contributors/"&gt;Contributors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/data-layer/"&gt;Data layer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/bounty/"&gt;Earn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/emoji/"&gt;Emoji&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/format-profile-number/"&gt;Format a Neko profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/render-emoji/"&gt;How to work with emoji on Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;Integrate new chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/kekk/"&gt;Kekcoin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/integrate-mochi-balances/"&gt;Leverage Mochi balances&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/meaningful-commit/"&gt;Meaningful commit message&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/mochi/"&gt;Mochi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-blackjack/"&gt;Mochi BlackJack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Mochi Extension Extension&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-poll/"&gt;Mochi Poll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-tip-bot-on-slack/"&gt;Mochi Raycast Extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-raycast-extension/"&gt;Mochi Raycast Extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/cronjob-validate-emoji/"&gt;Mochi Raycast Extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-rock-payer-scissor/"&gt;Mochi Rock Paper Scissor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/neko-butt/"&gt;Neko Butt NFT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/neko/"&gt;Neko NFT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/neko-og/"&gt;OG Card&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/paw-fellowship/"&gt;Paw Fellowship&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/philosophy/"&gt;Philosophy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/pod-town/"&gt;Pod Town&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/purpose/"&gt;Purpose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/rabby/"&gt;Rabby NFT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/shape-up/"&gt;Shape Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/shared-ui-lib/"&gt;Shared UI library in multiple platforms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-aptos-chain/"&gt;Support APTOS chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-avax-chain/"&gt;Support Avax chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-klaytn-chain/"&gt;Support Klaytn chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-linea-chain/"&gt;Support Linea chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-opbnb-chain/"&gt;Support OpBNB chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-ronin-chain/"&gt;Support RONIN chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-starknet-chain/"&gt;Support Starknet chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-sui-chain/"&gt;Support SUI chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-ton-chain/"&gt;Support TON chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-zksync-chain/"&gt;Support zkSync chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/wagmi/"&gt;WAGMI comics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Contributors</title><link>https://log.console.so/contributors/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/contributors/</guid><description>&lt;p&gt;Here are people at Console Labs and contributors who give hands to make our experiments happened&lt;/p&gt;
+
+
+&lt;h3 id="core"&gt;core &lt;a href="#core"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/members/neko-san/"&gt;neko-san&lt;/a&gt;: &lt;a href="https://twitter.com/abaddeed"&gt;twitter&lt;/a&gt;, &lt;a href="https://bsky.app/profile/han.bsky.social"&gt;bsky&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/members/hnh/"&gt;hnh&lt;/a&gt;: &lt;a href="https://github.com/huynguyenh"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/members/vincent/"&gt;vincent&lt;/a&gt;: &lt;a href="https://github.com/tuanddd"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;tono&lt;/em&gt;: &lt;a href="https://twitter.com/jxt0no"&gt;twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3 id="contributors"&gt;contributors &lt;a href="#contributors"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/members/anna/"&gt;anna&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;minh.cloud&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;0xLight&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;owltrovert&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;PAMsheep&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;phucld&lt;/em&gt;: &lt;a href="https://github.com/phucledien"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;trkhoi&lt;/em&gt;: &lt;a href="https://github.com/trkhoi"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;anhnh&lt;/em&gt;: &lt;a href="https://github.com/anhnh12"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;huynk&lt;/em&gt;: &lt;a href="https://github.com/NguyenHuy1812"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;phucnh&lt;/em&gt;: &lt;a href="https://github.com/jphuc96"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Mashiro&lt;/em&gt;: &lt;a href="https://github.com/ngolapnguyen"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;quang&lt;/em&gt;: &lt;a href="https://github.com/lmquang"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bien&lt;/em&gt;: &lt;a href="https://github.com/baenv"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;namnhce&lt;/em&gt;: &lt;a href="https://github.com/namnhce"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;minhth&lt;/em&gt;: &lt;a href="https://github.com/thminhVN"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;vdhieu&lt;/em&gt;: &lt;a href="https://github.com/vdhieu"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;haongo138&lt;/em&gt;: &lt;a href="https://github.com/haongo138"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/members/monotykamary/"&gt;monotykamary&lt;/a&gt;: &lt;a href="https://github.com/monotykamary"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3 id="pod-town-dao"&gt;Pod Town DAO &lt;a href="#pod-town-dao"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;𝖘𝖚𝖓 𝖋𝖎𝖗𝖊 [𝖓𝖋𝖆]&lt;/li&gt;
+&lt;li&gt;digdug&lt;/li&gt;
+&lt;li&gt;bimps: &lt;a href="https://twitter.com/bimpmeister"&gt;twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Shape Up</title><link>https://log.console.so/blog/shape-up/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/shape-up/</guid><description>&lt;h2 id="exploring"&gt;Exploring &lt;a href="#exploring"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We build up knowledge through collective team learning. This page is where lab members share their explorations of the financial world.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Every week, we host a presentation&lt;/strong&gt; to discuss our findings. This not only aids memory recall but also fosters a lasting learning culture within the team, keeping us updated on market trends.&lt;/p&gt;
+&lt;p&gt;We cover a range of topics, from basics like &amp;lsquo;6 jars budgeting methodology&amp;rsquo; to more current subjects like &amp;lsquo;web3 liquidity techniques&amp;rsquo;.&lt;/p&gt;</description></item><item><title>Emoji</title><link>https://log.console.so/experiments/emoji/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/emoji/</guid><description>&lt;p&gt;&lt;img src="https://log.console.so/experiments/../images/experiments/emoji/emoji_1.png" alt="images/experiments/emoji/emoji_1.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/p&gt;
+
+
+&lt;h2 id="from-meh-to-magic-the-emoji-revolution"&gt;From Meh to Magic: The Emoji Revolution &lt;a href="#from-meh-to-magic-the-emoji-revolution"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In this bustling world of ads, we felt the urge to stand out. Everywhere we turned, a sea of brands clamored for a moment&amp;rsquo;s attention, but how many genuinely resonate?&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the journey that led us to Cyber Neko Emojis. We didn’t just introduce a mascot; we gave life to Neko, an emblem of heartfelt connection. It’s not about fleeting promotions; it&amp;rsquo;s about forging a deep, lasting bond. Neko isn’t merely a character; it’s a beacon amidst the noise, a symbol of genuine connections.&lt;/p&gt;</description></item><item><title>Kekcoin</title><link>https://log.console.so/experiments/kekk/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/kekk/</guid><description/></item><item><title>Mochi</title><link>https://log.console.so/experiments/mochi/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/mochi/</guid><description>&lt;p&gt;Mochi is the ultimate payment application seamlessly integrated into your favorite social platforms - Discord and Telegram. Mochi is designed to revolutionize the way you send money to friends, family, and contacts while making your community even more engaging and convenient.&lt;/p&gt;
+
+
+&lt;h2 id="mochi-more-than-just-money---its-about-connections"&gt;Mochi: More Than Just Money - It’s About Connections &lt;a href="#mochi-more-than-just-money---its-about-connections"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When we think of social bonds in communities, and teams, we think of messages exchanged: compliments, encouragement, and teasing. But have you ever thought about the transactions hidden within these actions? How often have you wanted to send money or reward someone instantly, right in the midst of social platforms?&lt;/p&gt;</description></item><item><title>Neko NFT</title><link>https://log.console.so/experiments/neko/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/neko/</guid><description>&lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contract: &lt;a href="https://ftmscan.com/address/0x7acee5d0acc520fab33b3ea25d4feef1ffebde73"&gt;0x7acee5d0acc520fab33b3ea25d4feef1ffebde73&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Community: &lt;a href="https://discord.gg/G6S2y5vJrJ"&gt;Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Marketplace: &lt;a href="https://paintswap.finance/marketplace/fantom/collections/cyber-neko"&gt;PaintSwap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website: &lt;a href="https://pod.town/cyber-neko-nft"&gt;pod.town/neko&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://log.console.so/experiments/../images/experiments/neko/nekonft-cover.png" alt="nekonft-cover.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/p&gt;
+&lt;p&gt;The explosion of blockchain technology has given rise to numerous innovations. Among them, Non-Fungible Tokens (NFTs) have emerged as a frontier in the intersection between art, technology, and commerce. At the forefront of this wave is the Cyber Neko NFT experiment. We started it as our first experiment in web3.&lt;/p&gt;
+
+
+&lt;h2 id="cyber-neko-nft"&gt;Cyber Neko NFT &lt;a href="#cyber-neko-nft"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Cyber Neko is not just another NFT; it represents a blend of artistry, community, and technology. With a limited collection of 6,666 unique pieces, each Neko is a testament to programmatically generated digital artistry. But Cyber Neko is more than just its looks. Hosted on the Fantom Opera blockchain, it also speaks to the explorative spirit of the web3 movement.&lt;/p&gt;</description></item><item><title>Pod Town</title><link>https://log.console.so/experiments/pod-town/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/pod-town/</guid><description/></item><item><title>WAGMI comics</title><link>https://log.console.so/experiments/wagmi/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/experiments/wagmi/</guid><description>&lt;p&gt;&lt;img src="https://log.console.so/experiments/../images/experiments/wagmi/wagmi-1.png" alt="images/experiments/wagmi/wagmi-1.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/p&gt;
+
+
+&lt;h1 id="wagmi-is-a-super-fun-webcomic-all-about-money-stuff-we-make-cool-and-funny-comics-with-our-friends-neko-and-mochi-to-help-everyone-with-lifes-wild-moments"&gt;WAGMI is a super fun webcomic all about money stuff. We make cool and funny comics with our friends &lt;a href="https://log.console.so/experiments/neko/"&gt;neko&lt;/a&gt; and &lt;a href="https://log.console.so/experiments/mochi/"&gt;mochi&lt;/a&gt; to help everyone with life&amp;rsquo;s wild moments. &lt;a href="#wagmi-is-a-super-fun-webcomic-all-about-money-stuff-we-make-cool-and-funny-comics-with-our-friends-neko-and-mochi-to-help-everyone-with-lifes-wild-moments"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;WAGMI is a super fun webcomic all about money stuff. We make cool and funny comics with our friends &lt;a href="https://log.console.so/experiments/neko/"&gt;neko&lt;/a&gt; and &lt;a href="https://log.console.so/experiments/mochi/"&gt;experiments/mochi&lt;/a&gt; to help everyone with life&amp;rsquo;s wild moments.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check the comics: &lt;a href="https://wagmicomics.com"&gt;wagmicomics.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Facebook: &lt;a href="https://facebook.com/wagmicomics"&gt;facebook.com/wagmicomics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RSS: &lt;a href="https://wagmicomics.com/rss.xml"&gt;wagmicomics.com/rss.xml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="why-wagmi"&gt;Why WAGMI? &lt;a href="#why-wagmi"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://log.console.so/experiments/../images/experiments/wagmi/wagmi-2.png" alt="images/experiments/wagmi/wagmi-2.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/p&gt;</description></item><item><title>How to work with emoji on Discord</title><link>https://log.console.so/playbook/render-emoji/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/render-emoji/</guid><description>&lt;p&gt;Emojis play a crucial role in Discord, enhancing the appearance and uniqueness of Discord content. We aim to utilize emojis to make our Bot better than others.&lt;/p&gt;
+&lt;p&gt;However, managing emojis is not as simple as it may seem. Along our journey, we&amp;rsquo;ve encountered some important considerations.&lt;/p&gt;
+
+
+&lt;h2 id="product-people-first"&gt;Product People first &lt;a href="#product-people-first"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As engineers, we don&amp;rsquo;t make decisions about designs or changes to components. Initially, we hardcoded the emoji ID directly into our Discord bot&amp;rsquo;s source code. But over time, we found ourselves needing to update it frequently. To streamline this process, we decided to store the emoji IDs in a separate database. This database is distinct from our main business logic database, and we&amp;rsquo;ve granted permission for our product team to access it using a database tool like Retool.&lt;/p&gt;</description></item><item><title>About Us</title><link>https://log.console.so/about/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/about/</guid><description>&lt;h2 id="intro"&gt;Intro &lt;a href="#intro"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We’re Console Labs. We’re all about that finance and making things fun. We’re diving deep into tech, data, web3, blockchain, and jotting down all the cool stuff we find, hoping to whip up something rad for everyone online.&lt;/p&gt;
+&lt;p&gt;Peep our &lt;a href="https://log.console.so/philosophy/"&gt;philosophy&lt;/a&gt; and &lt;a href="https://log.console.so/purpose/"&gt;purpose&lt;/a&gt;, or keep it fresh by catching our monthly updates.&lt;br&gt;
+Oh, and btw, we’re like a sibling to &lt;a href="https://d.foundation"&gt;Dwarves&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;h2 id="website-"&gt;Website 💻 &lt;a href="#website-"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This site is where we show our face to the world. It’s all glammed up using &lt;a href="https://github.com/gohugoio/hugo"&gt;Hugo&lt;/a&gt; with some custom magic by &lt;a href="https://log.console.so/members/monotykamary/"&gt;monotykamary&lt;/a&gt; and &lt;a href="https://log.console.so/members/vincent/"&gt;vincent&lt;/a&gt;.&lt;br&gt;
+Scope out the repo &lt;a href="https://github.com/consolelabs/log.console.so"&gt;right here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>API-first development</title><link>https://log.console.so/playbook/api-first/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/api-first/</guid><description>&lt;h2 id="background"&gt;Background &lt;a href="#background"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;@Console Labs, our primary goal is to rapidly introduce new features and gather user feedback as quickly as possible. We understand that this approach isn&amp;rsquo;t flawless and can lead to regression bugs. However, at this stage of our product development, we are content with this strategy.&lt;/p&gt;
+&lt;p&gt;The challenge arises when we aim to develop something new within a short timeframe, typically one week or even just two days. This typically involves creating a small set of new features, starting from gathering requirements, designing the features, and then implementing them on both the backend and frontend.&lt;/p&gt;</description></item><item><title>Data layer</title><link>https://log.console.so/playbook/data-layer/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/data-layer/</guid><description>&lt;p&gt;&lt;img src="https://log.console.so/playbook/../images/playbook/data-flow.png"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/p&gt;
+&lt;p&gt;This data layer serves as the central source of information for various features such as tickers, price alerts, and token details. These features rely on the data within this layer to provide accurate and up-to-date information to users. In essence, it&amp;rsquo;s like the beating heart of the mochi ecosystem, ensuring that all the essential data is readily available for users to access and use.&lt;/p&gt;</description></item><item><title>Leverage Mochi balances</title><link>https://log.console.so/playbook/integrate-mochi-balances/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/integrate-mochi-balances/</guid><description/></item><item><title>Log</title><link>https://log.console.so/blog/log/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/log/</guid><description>&lt;p&gt;A list of changes and updates to our experiments.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RSS feed, regular updates.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://newsletter.console.so"&gt;Newsletter&lt;/a&gt; for frens, monthly updates.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="january-2024"&gt;January 2024 &lt;a href="#january-2024"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As the new year has come, we only focus on bringing mochi from beta to the production stage. On Mochi.gg, we introduce these features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Overview: An overview of assets and transaction history&lt;/li&gt;
+&lt;li&gt;Explore: To help users explore the dynamics of our vibrant community, Mochi allows users to track, analyze, and optimize transactions to understand app performance and user behavior.&lt;/li&gt;
+&lt;li&gt;Changelog: Changelog - A go-to hub for all the latest product improvements which help users stay in the loop with clear and concise updates on features, enhancements, and fixes.&lt;/li&gt;
+&lt;li&gt;Notifications: Notifications help users stay effortlessly informed about transactions.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="december-2023"&gt;December 2023 &lt;a href="#december-2023"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;console.so: Dive into the awesomeness of our fresh UI kit at &lt;a href="https://mochiui.com/"&gt;mochiui.com&lt;/a&gt;. It&amp;rsquo;s so user-friendly, to the point that everyone can design a website!&lt;/li&gt;
+&lt;li&gt;mochi.gg: Behold our latest creation on beta - a page to check your balance and transactions.&lt;/li&gt;
+&lt;li&gt;emoji: Get ready for a wild ride on our shiny new website &lt;a href="https://sticker.console.so/"&gt;sticker.console.so&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="november-2023"&gt;November 2023 &lt;a href="#november-2023"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;console.so: Explore ds.console.so for our latest UI kit components and new articles on Scrum Sprint and PodTown Sunday, offering insights into our team&amp;rsquo;s working process. &lt;/li&gt;
+&lt;li&gt;mochi.gg: Added a tip feature and developer list. You can now tip on our beta web at beta.mochi.gg. &lt;/li&gt;
+&lt;li&gt;tono.gg: Introducing config channels and activity check on Tono Bot. &lt;/li&gt;
+&lt;li&gt;emoji: Added 10 more neko emojis on Discord.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="october-2023"&gt;October 2023 &lt;a href="#october-2023"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;console.so&lt;/strong&gt;: Checkout &lt;a href="https://ds.console.so/"&gt;ds.console.so&lt;/a&gt; for our new design system, which will drive our future development.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;headless wallet&lt;/strong&gt;: Now support &lt;strong&gt;&lt;a href="https://zksync.io/"&gt;zksync&lt;/a&gt;&lt;/strong&gt; &amp;amp; &lt;strong&gt;&lt;a href="https://ton.org/"&gt;TON&lt;/a&gt;&lt;/strong&gt;. &lt;a href="https://www.mantle.xyz/"&gt;Mantle&lt;/a&gt; next.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mochi.gg/"&gt;&lt;strong&gt;mochi.gg&lt;/strong&gt;&lt;/a&gt;: Mochi is now live on the web. Sending money to anyone, anywhere.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tono.gg/"&gt;&lt;strong&gt;tono.gg&lt;/strong&gt;&lt;/a&gt;: Meet Tono, our new Discord bot dedicated to community management. Give it a try at &lt;a href="https://install.tono.gg/"&gt;install.tono.gg&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wagmicomics.com/"&gt;&lt;strong&gt;wagmi&lt;/strong&gt;&lt;/a&gt;: Hot off the press! Check out our latest comic on Budgeting Management featuring the 6 Jars method.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;emoji&lt;/strong&gt;: We&amp;rsquo;ve just pumped up the energy with 14 brand new emojis on our Discord server.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3 id="news"&gt;News &lt;a href="#news"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://log.console.so/members/neko-san/"&gt;neko-san&lt;/a&gt; was at the Solana Breakpoint in Amsterdam last week. They showcased three new validator clients created by the community. There&amp;rsquo;s still work to do, but it&amp;rsquo;s a solid sign that the Solana community is gaining strength. It&amp;rsquo;s pushing us to double down on our investment in Solana because they’re clearly making moves towards wider adoption and greater decentralization.&lt;/p&gt;</description></item><item><title>Meaningful commit message</title><link>https://log.console.so/playbook/meaningful-commit/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/meaningful-commit/</guid><description>&lt;h2 id="problems--background"&gt;Problems &amp;amp; Background &lt;a href="#problems--background"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Have you ever been frustrated by reading an app&amp;rsquo;s changelog that&amp;rsquo;s full of unhelpful information? It&amp;rsquo;s like they don&amp;rsquo;t care about their product or their users. You might have seen changelogs like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2.11.4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Some bugs fixed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix bugs and improve UI/UX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;These changelogs are confusing and don&amp;rsquo;t provide any meaningful insights for users. Changelogs are meant for people, not machines. They serve as a way for us to communicate with our users. Whether you&amp;rsquo;re working on a big or small software project, it&amp;rsquo;s essential to create a useful changelog.&lt;/p&gt;</description></item><item><title>Philosophy</title><link>https://log.console.so/philosophy/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/philosophy/</guid><description>&lt;p&gt;We’re all about shaping a future where tech is chill, super fun, and all about those money vibes. Here’s the scoop on the four main vibes guiding our crew:&lt;/p&gt;
+
+
+&lt;h2 id="small-but-sharp-"&gt;Small but Sharp 🔍 &lt;a href="#small-but-sharp-"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We’re digging the idea of creating things that are small but ace at what they do. We aim for simplicity and effectiveness, making sure every tool we make nails its job and stands out in its own way. In a world that can be too much, we keep it simple and focused.&lt;/p&gt;</description></item><item><title>Continuous Integration</title><link>https://log.console.so/playbook/ci-cd/</link><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/ci-cd/</guid><description>&lt;h2 id="what"&gt;What &lt;a href="#what"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests. While automated testing is not strictly part of CI it is typically implied.&lt;/p&gt;
+&lt;p&gt;One of the key benefits of integrating regularly is that you can detect errors quickly and locate them more easily. As each change introduced is typically small, pinpointing the specific change that introduced a defect can be done quickly.&lt;/p&gt;</description></item><item><title>Format a Neko profile</title><link>https://log.console.so/playbook/format-profile-number/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/format-profile-number/</guid><description>&lt;h2 id="intro"&gt;Intro &lt;a href="#intro"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When it comes to UI rendering, there&amp;rsquo;s no one-size-fits-all &amp;ldquo;correct way.&amp;rdquo; This is especially true for us because we&amp;rsquo;re building across various platforms and ecosystems, each with its unique user behavior. Consequently, there&amp;rsquo;s no universal UI rendering approach that suits every situation.&lt;/p&gt;
+&lt;p&gt;In today&amp;rsquo;s article, we&amp;rsquo;ll delve into our first component: the &amp;ldquo;Neko Profile.&amp;rdquo;&lt;/p&gt;
+
+
+&lt;h2 id="what-is-an-neko-profile"&gt;What is an Neko Profile &lt;a href="#what-is-an-neko-profile"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A Neko profile is what we call our &amp;ldquo;user.&amp;rdquo; This term applies not only to Mochi but also to everything we&amp;rsquo;ve built, from Pod Town to NFTs and beyond. When we say &amp;ldquo;user,&amp;rdquo; we&amp;rsquo;re not just referring to actual end-users but also to external applications built upon our system. In essence, we consider these applications as &amp;ldquo;users&amp;rdquo; too.&lt;/p&gt;</description></item><item><title>Integrate new chain</title><link>https://log.console.so/playbook/add-new-chains/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/add-new-chains/</guid><description>&lt;p&gt;In the rapidly evolving blockchain industry, it&amp;rsquo;s crucial to keep up with the pace of change. Here&amp;rsquo;s a quick overview of how we seamlessly integrate new chains into the Mochi system, with the caveat that this method is specific to EVM-based blockchains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Product Preparation&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Pull raw data into clickhouse&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Ticker, Watchlist Token Info&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Wallet tracking on this new chain&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Show assets in profile&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Transfer / Tip / Airdrop / Payme / Paylink&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Withdraw&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Deposit&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="product-preparation"&gt;Product Preparation &lt;a href="#product-preparation"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In this section, most of the tasks require manual handling.&lt;/p&gt;</description></item><item><title>Purpose</title><link>https://log.console.so/purpose/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/purpose/</guid><description>&lt;h2 id="finance-frenzy"&gt;Finance Frenzy &lt;a href="#finance-frenzy"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Everyone is in pursuit of money &amp;amp; happiness. Money&amp;rsquo;s a universal symbol representing the value of our hard work. While we’re all working to create value, those in the finance sector are trading these values, often reaping the benefits.&lt;/p&gt;
+&lt;p&gt;With the advancement of technology, accessing financial data has become straightforward, especially with the development of on-chain technologies. The financial world is continuously evolving with new concepts and inventions, but its core principles remain the same.&lt;/p&gt;</description></item><item><title>Shared UI library in multiple platforms</title><link>https://log.console.so/playbook/shared-ui-lib/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/shared-ui-lib/</guid><description>&lt;h2 id="background"&gt;Background &lt;a href="#background"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Earlier this year, we introduced a new version of Telegram for Mochi, but it came with some new challenges.&lt;/p&gt;
+&lt;p&gt;Up until now, we&amp;rsquo;ve been using a single backend system to support all of our services. This approach was taken to ensure a smooth experience for both users and engineers across different platforms. However, a problem arose when it came to the user interface. We found ourselves dealing with two different sets of rules (Discord &amp;amp; Telegram) for how the interface should look and behave. This complexity kept growing as we added new features and concepts. Eventually, we reached a point where it became nearly impossible to maintain consistency between the two platforms. Worth noting that, we also aim to have a Web, Mobile &amp;amp; Raycast versions for Mochi.&lt;/p&gt;</description></item><item><title>Mochi Raycast Extension</title><link>https://log.console.so/earn/mochi-tip-bot-on-slack/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-tip-bot-on-slack/</guid><description>&lt;h1 id="overview"&gt;Overview &lt;a href="#overview"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We want to create a new Slack version of Mochi tip bot&lt;/p&gt;
+
+
+&lt;h2 id="features-for-mvp"&gt;Features for MVP &lt;a href="#features-for-mvp"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;/deposit &lt;token&gt;&lt;/li&gt;
+&lt;li&gt;/tip &lt;recipient&gt; &lt;amount&gt; &lt;token&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;recipient&gt;: @username, #channel&lt;/li&gt;
+&lt;li&gt;&lt;amount&gt;: support integer and decimal&lt;/li&gt;
+&lt;li&gt;&lt;token&gt;: Cryptocurrencies symbol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;/withdraw &lt;amount&gt; &lt;token&gt; &lt;address&gt;&lt;/li&gt;
+&lt;li&gt;/ticker &lt;token&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="interface"&gt;Interface &lt;a href="#interface"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;/deposit&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Help menu: when users enter only /deposit&lt;/p&gt;
+&lt;p&gt;*private mode&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;:moneybag: Deposit Tokens
+
+To deposit tokens into your Slack account, use the following command:
+/deposit &amp;lt;token&amp;gt;
+/deposit eth
+:one: Replace &amp;lt;token&amp;gt; with the token symbol you want to deposit.
+:two: Then Mochi Bot will send you addresses to deposit.
+:three: Finally, Send tokens from your crypto wallet into of of the given addresses
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deposit Addresses&lt;/p&gt;</description></item><item><title>Mochi Rock Paper Scissor</title><link>https://log.console.so/earn/mochi-rock-payer-scissor/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-rock-payer-scissor/</guid><description>&lt;h1 id="rock-paper-scissor-discord"&gt;Rock Paper Scissor Discord &lt;a href="#rock-paper-scissor-discord"&gt;&lt;/a&gt;&lt;/h1&gt;
+
+
+&lt;h2 id="create-a-new-game"&gt;Create a New Game &lt;a href="#create-a-new-game"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Users can initiate a new Rock-Paper-Scissors game with the following parameters:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/rps new &amp;lt;player(s)&amp;gt; &amp;lt;amount&amp;gt; &amp;lt;token&amp;gt; &amp;lt;rounds&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;player(s)&amp;gt;&lt;/code&gt;:
+&lt;ul&gt;
+&lt;li&gt;Tag Discord users to specifically invite them to the game. Only tagged users can participate.&lt;/li&gt;
+&lt;li&gt;number of users If a number is provided, it specifies the maximum number of players.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;amount&amp;gt;&lt;/code&gt;: The amount to bet.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;token&amp;gt;&lt;/code&gt;: The type of token to bet (e.g., icy, BTC, ETH).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;rounds&amp;gt;&lt;/code&gt;: Specifies the number of rounds in the game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;For example&lt;/em&gt;:&lt;/p&gt;</description></item><item><title>Blockchain event calendar</title><link>https://log.console.so/earn/mochi-blockchain-event-calendar/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-blockchain-event-calendar/</guid><description>&lt;p&gt;1/ Get data from: &lt;a href="https://coinmarketcal.com/en/?page=3"&gt;https://coinmarketcal.com/en/?page=3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2/ Render list of popular events, like: ETH, BTC, SOL, Token2049 …, support pagination&lt;/p&gt;
+&lt;p&gt;3/ Search event via keyword&lt;/p&gt;
+&lt;p&gt;4/ Users can submit their own event, with tag &lt;code&gt;local&lt;/code&gt; and link to join, also alert a msg to mochi discord&lt;/p&gt;
+&lt;p&gt;5/ Expose API&lt;/p&gt;</description></item><item><title>Mochi BlackJack</title><link>https://log.console.so/earn/mochi-blackjack/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-blackjack/</guid><description>&lt;h1 id="overview"&gt;Overview &lt;a href="#overview"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We are looking to develop a Blackjack game as a Discord bot. The bot will allow users to play Blackjack by interacting with it through various commands. Users will be required to transfer tokens from their wallet to the game&amp;rsquo;s wallet as a deposit to participate. The bot will manage the game logic, including dealing cards, calculating winnings, and transferring tokens back to the winner&amp;rsquo;s wallet. Below are the detailed requirements for this project.&lt;/p&gt;</description></item><item><title>Mochi Raycast Extension</title><link>https://log.console.so/earn/mochi-raycast-extension/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-raycast-extension/</guid><description>&lt;p&gt;&lt;em&gt;Deadline: 5 May, 11:59 PM (Indian Standard Time)&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;h3 id="about-the-bounty"&gt;About the Bounty &lt;a href="#about-the-bounty"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Mochi is a platform that allows Discord server owners to integrate trading supporting tools called Mochi APIs. Mochi APIs now provides Token and NFT Data query: User can query Token price, marketcap, and movement; NFT rarity and raking and sales which support the investment decision.&lt;/p&gt;
+&lt;p&gt;Superteam is sponsoring a bounty for developers to use Mochi APIs to build a Raycast extension, which meets the following requirement: Users should be able to use the Raycast extension to query the token price, info and movement; convert token; and NFT rarity, ranking and sales.&lt;/p&gt;</description></item><item><title/><link>https://log.console.so/members/anna/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/anna/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;anna&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/emoji/"&gt;Emoji&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/hnh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/hnh/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;hnh&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/cronjob-validate-emoji/"&gt;Mochi Raycast Extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-aptos-chain/"&gt;Support APTOS chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-avax-chain/"&gt;Support Avax chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-linea-chain/"&gt;Support Linea chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-klaytn-chain/"&gt;Support Klaytn chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-opbnb-chain/"&gt;Support OpBNB chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-starknet-chain/"&gt;Support Starknet chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-ronin-chain/"&gt;Support RONIN chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-sui-chain/"&gt;Support SUI chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-ton-chain/"&gt;Support TON chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-zksync-chain/"&gt;Support zkSync chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-blockchain-event-calendar/"&gt;Blockchain event calendar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-raycast-extension/"&gt;Mochi Raycast Extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Mochi Extension Extension&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;Integrate new chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/ci-cd/"&gt;Continuous Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/api-first/"&gt;API-first development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/data-layer/"&gt;Data layer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/format-profile-number/"&gt;Format a Neko profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/integrate-mochi-balances/"&gt;Leverage Mochi balances&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/meaningful-commit/"&gt;Meaningful commit message&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/render-emoji/"&gt;How to work with emoji on Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/shared-ui-lib/"&gt;Shared UI library in multiple platforms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/bounty/"&gt;Earn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/minh_cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/minh_cloud/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;minh_cloud&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/mochi/"&gt;Mochi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/wagmi/"&gt;WAGMI comics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/integrate-mochi-balances/"&gt;Leverage Mochi balances&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/workflow/"&gt;A Scrum Sprint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/monotykamary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/monotykamary/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;monotykamary&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/bounty/"&gt;Earn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/neko-san/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/neko-san/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;neko-san&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://pbs.twimg.com/profile_images/1668203756348141570/j1RRmGAI_400x400.jpg" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://twitter.com/abaddeed"&gt;https://twitter.com/abaddeed&lt;/a&gt;&lt;br&gt;&lt;a href="https://bsky.app/profile/han.bsky.social"&gt;https://bsky.app/profile/han.bsky.social&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/about/"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/shape-up/"&gt;Shape Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/contributors/"&gt;Contributors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/neko/"&gt;Neko NFT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/purpose/"&gt;Purpose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/philosophy/"&gt;Philosophy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/vincent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/vincent/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;vincent&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;</description></item></channel></rss>

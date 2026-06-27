@@ -1,5 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data on Console Labs</title><link>https://log.console.so/tags/data/</link><description>Recent content in Data on Console Labs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.console.so/tags/data/index.xml" rel="self" type="application/rss+xml"/><item><title>Support Trending token</title><link>https://log.console.so/earn/support-trending-token/</link><pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/support-trending-token/</guid><description>Purpose Support the trending token for tip, deposit and withdraw on Mochi Source of trending token
-You can choose token to support from these source
-From the /ticker and /watchlist add. Check out the suggested list here. Binance Coinmarketcap/ Twitter, hastag $&amp;hellip; Token Priority to support
-The most recent and queried token by Mochi user The token on the chain that we have supported Token on Binance, CMC, Twitter Process support token</description></item><item><title>Integrate new chain</title><link>https://log.console.so/playbook/add-new-chains/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/add-new-chains/</guid><description>In the rapidly evolving blockchain industry, it&amp;rsquo;s crucial to keep up with the pace of change. Here&amp;rsquo;s a quick overview of how we seamlessly integrate new chains into the Mochi system, with the caveat that this method is specific to EVM-based blockchains:
-Product Preparation Pull raw data into clickhouse Ticker, Watchlist Token Info Wallet tracking on this new chain Show assets in profile Transfer / Tip / Airdrop / Payme / Paylink Withdraw Deposit Product Preparation In this section, most of the tasks require manual handling.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data on Console Labs</title><link>https://log.console.so/tags/data/</link><description>Recent content in Data on Console Labs</description><generator>Hugo</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.console.so/tags/data/index.xml" rel="self" type="application/rss+xml"/><item><title>Support Trending token</title><link>https://log.console.so/earn/support-trending-token/</link><pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/support-trending-token/</guid><description>&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Support the trending token for tip, deposit and withdraw on Mochi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Source of trending token&lt;/strong&gt;&lt;br&gt;
+You can choose token to support from these source&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;From the /ticker and /watchlist add. Check out the suggested list &lt;a href="https://docs.google.com/spreadsheets/d/1yNJnRNu85CLJ4dNI6LDkVU6IW10pzd8KgkceTauSZ_Q/edit#gid=1495581261"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.binance.com/en/markets/overview" title="https://www.binance.com/en/markets/overview"&gt;Binance&lt;/a&gt; &lt;a href="https://coinmarketcap.com/trending-cryptocurrencies/" title="https://coinmarketcap.com/trending-cryptocurrencies/"&gt;Coinmarketcap/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter, hastag $&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Token Priority to support&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The most recent and queried token by Mochi user&lt;/li&gt;
+&lt;li&gt;The token on the chain that we have supported&lt;/li&gt;
+&lt;li&gt;Token on Binance, CMC, Twitter&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Process support token&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Integrate new chain</title><link>https://log.console.so/playbook/add-new-chains/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/playbook/add-new-chains/</guid><description>&lt;p&gt;In the rapidly evolving blockchain industry, it&amp;rsquo;s crucial to keep up with the pace of change. Here&amp;rsquo;s a quick overview of how we seamlessly integrate new chains into the Mochi system, with the caveat that this method is specific to EVM-based blockchains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Product Preparation&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Pull raw data into clickhouse&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Ticker, Watchlist Token Info&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Wallet tracking on this new chain&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Show assets in profile&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Transfer / Tip / Airdrop / Payme / Paylink&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Withdraw&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Deposit&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="product-preparation"&gt;Product Preparation &lt;a href="#product-preparation"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In this section, most of the tasks require manual handling.&lt;/p&gt;</description></item></channel></rss>

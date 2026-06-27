@@ -1,5 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Console Labs</title><link>https://log.console.so/blog/</link><description>Recent content in Blogs on Console Labs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.console.so/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Shape Up</title><link>https://log.console.so/blog/shape-up/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/shape-up/</guid><description>Exploring We build up knowledge through collective team learning. This page is where lab members share their explorations of the financial world.
-Every week, we host a presentation to discuss our findings. This not only aids memory recall but also fosters a lasting learning culture within the team, keeping us updated on market trends.
-We cover a range of topics, from basics like &amp;lsquo;6 jars budgeting methodology&amp;rsquo; to more current subjects like &amp;lsquo;web3 liquidity techniques&amp;rsquo;.</description></item><item><title>Log</title><link>https://log.console.so/blog/log/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/log/</guid><description>A list of changes and updates to our experiments.
-RSS feed, regular updates. Newsletter for frens, monthly updates. January 2024 As the new year has come, we only focus on bringing mochi from beta to the production stage. On Mochi.gg, we introduce these features:
-Overview: An overview of assets and transaction history Explore: To help users explore the dynamics of our vibrant community, Mochi allows users to track, analyze, and optimize transactions to understand app performance and user behavior.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Console Labs</title><link>https://log.console.so/blog/</link><description>Recent content in Blogs on Console Labs</description><generator>Hugo</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.console.so/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Shape Up</title><link>https://log.console.so/blog/shape-up/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/shape-up/</guid><description>&lt;h2 id="exploring"&gt;Exploring &lt;a href="#exploring"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We build up knowledge through collective team learning. This page is where lab members share their explorations of the financial world.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Every week, we host a presentation&lt;/strong&gt; to discuss our findings. This not only aids memory recall but also fosters a lasting learning culture within the team, keeping us updated on market trends.&lt;/p&gt;
+&lt;p&gt;We cover a range of topics, from basics like &amp;lsquo;6 jars budgeting methodology&amp;rsquo; to more current subjects like &amp;lsquo;web3 liquidity techniques&amp;rsquo;.&lt;/p&gt;</description></item><item><title>Log</title><link>https://log.console.so/blog/log/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/blog/log/</guid><description>&lt;p&gt;A list of changes and updates to our experiments.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RSS feed, regular updates.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://newsletter.console.so"&gt;Newsletter&lt;/a&gt; for frens, monthly updates.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="january-2024"&gt;January 2024 &lt;a href="#january-2024"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As the new year has come, we only focus on bringing mochi from beta to the production stage. On Mochi.gg, we introduce these features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Overview: An overview of assets and transaction history&lt;/li&gt;
+&lt;li&gt;Explore: To help users explore the dynamics of our vibrant community, Mochi allows users to track, analyze, and optimize transactions to understand app performance and user behavior.&lt;/li&gt;
+&lt;li&gt;Changelog: Changelog - A go-to hub for all the latest product improvements which help users stay in the loop with clear and concise updates on features, enhancements, and fixes.&lt;/li&gt;
+&lt;li&gt;Notifications: Notifications help users stay effortlessly informed about transactions.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="december-2023"&gt;December 2023 &lt;a href="#december-2023"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;console.so: Dive into the awesomeness of our fresh UI kit at &lt;a href="https://mochiui.com/"&gt;mochiui.com&lt;/a&gt;. It&amp;rsquo;s so user-friendly, to the point that everyone can design a website!&lt;/li&gt;
+&lt;li&gt;mochi.gg: Behold our latest creation on beta - a page to check your balance and transactions.&lt;/li&gt;
+&lt;li&gt;emoji: Get ready for a wild ride on our shiny new website &lt;a href="https://sticker.console.so/"&gt;sticker.console.so&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="november-2023"&gt;November 2023 &lt;a href="#november-2023"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;console.so: Explore ds.console.so for our latest UI kit components and new articles on Scrum Sprint and PodTown Sunday, offering insights into our team&amp;rsquo;s working process. &lt;/li&gt;
+&lt;li&gt;mochi.gg: Added a tip feature and developer list. You can now tip on our beta web at beta.mochi.gg. &lt;/li&gt;
+&lt;li&gt;tono.gg: Introducing config channels and activity check on Tono Bot. &lt;/li&gt;
+&lt;li&gt;emoji: Added 10 more neko emojis on Discord.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="october-2023"&gt;October 2023 &lt;a href="#october-2023"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;console.so&lt;/strong&gt;: Checkout &lt;a href="https://ds.console.so/"&gt;ds.console.so&lt;/a&gt; for our new design system, which will drive our future development.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;headless wallet&lt;/strong&gt;: Now support &lt;strong&gt;&lt;a href="https://zksync.io/"&gt;zksync&lt;/a&gt;&lt;/strong&gt; &amp;amp; &lt;strong&gt;&lt;a href="https://ton.org/"&gt;TON&lt;/a&gt;&lt;/strong&gt;. &lt;a href="https://www.mantle.xyz/"&gt;Mantle&lt;/a&gt; next.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mochi.gg/"&gt;&lt;strong&gt;mochi.gg&lt;/strong&gt;&lt;/a&gt;: Mochi is now live on the web. Sending money to anyone, anywhere.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tono.gg/"&gt;&lt;strong&gt;tono.gg&lt;/strong&gt;&lt;/a&gt;: Meet Tono, our new Discord bot dedicated to community management. Give it a try at &lt;a href="https://install.tono.gg/"&gt;install.tono.gg&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wagmicomics.com/"&gt;&lt;strong&gt;wagmi&lt;/strong&gt;&lt;/a&gt;: Hot off the press! Check out our latest comic on Budgeting Management featuring the 6 Jars method.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;emoji&lt;/strong&gt;: We&amp;rsquo;ve just pumped up the energy with 14 brand new emojis on our Discord server.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3 id="news"&gt;News &lt;a href="#news"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://log.console.so/members/neko-san/"&gt;neko-san&lt;/a&gt; was at the Solana Breakpoint in Amsterdam last week. They showcased three new validator clients created by the community. There&amp;rsquo;s still work to do, but it&amp;rsquo;s a solid sign that the Solana community is gaining strength. It&amp;rsquo;s pushing us to double down on our investment in Solana because they’re clearly making moves towards wider adoption and greater decentralization.&lt;/p&gt;</description></item></channel></rss>

@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Slack-Bot on Console Labs</title><link>https://log.console.so/tags/slack-bot/</link><description>Recent content in Slack-Bot on Console Labs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.console.so/tags/slack-bot/index.xml" rel="self" type="application/rss+xml"/><item><title>Mochi Raycast Extension</title><link>https://log.console.so/earn/mochi-tip-bot-on-slack/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-tip-bot-on-slack/</guid><description>Overview We want to create a new Slack version of Mochi tip bot
-Features for MVP /deposit /tip : @username, #channel : support integer and decimal : Cryptocurrencies symbol /withdraw /ticker Interface /deposit
-Help menu: when users enter only /deposit
-*private mode
-:moneybag: Deposit Tokens To deposit tokens into your Slack account, use the following command: /deposit &amp;lt;token&amp;gt; /deposit eth :one: Replace &amp;lt;token&amp;gt; with the token symbol you want to deposit.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Slack-Bot on Console Labs</title><link>https://log.console.so/tags/slack-bot/</link><description>Recent content in Slack-Bot on Console Labs</description><generator>Hugo</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.console.so/tags/slack-bot/index.xml" rel="self" type="application/rss+xml"/><item><title>Mochi Raycast Extension</title><link>https://log.console.so/earn/mochi-tip-bot-on-slack/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/earn/mochi-tip-bot-on-slack/</guid><description>&lt;h1 id="overview"&gt;Overview &lt;a href="#overview"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We want to create a new Slack version of Mochi tip bot&lt;/p&gt;
+
+
+&lt;h2 id="features-for-mvp"&gt;Features for MVP &lt;a href="#features-for-mvp"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;/deposit &lt;token&gt;&lt;/li&gt;
+&lt;li&gt;/tip &lt;recipient&gt; &lt;amount&gt; &lt;token&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;recipient&gt;: @username, #channel&lt;/li&gt;
+&lt;li&gt;&lt;amount&gt;: support integer and decimal&lt;/li&gt;
+&lt;li&gt;&lt;token&gt;: Cryptocurrencies symbol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;/withdraw &lt;amount&gt; &lt;token&gt; &lt;address&gt;&lt;/li&gt;
+&lt;li&gt;/ticker &lt;token&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 id="interface"&gt;Interface &lt;a href="#interface"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;/deposit&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Help menu: when users enter only /deposit&lt;/p&gt;
+&lt;p&gt;*private mode&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;:moneybag: Deposit Tokens
+
+To deposit tokens into your Slack account, use the following command:
+/deposit &amp;lt;token&amp;gt;
+/deposit eth
+:one: Replace &amp;lt;token&amp;gt; with the token symbol you want to deposit.
+:two: Then Mochi Bot will send you addresses to deposit.
+:three: Finally, Send tokens from your crypto wallet into of of the given addresses
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deposit Addresses&lt;/p&gt;</description></item></channel></rss>

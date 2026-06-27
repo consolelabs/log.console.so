@@ -1,2 +1,158 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Members on Console Labs</title><link>https://log.console.so/members/</link><description>Recent content in Members on Console Labs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><atom:link href="https://log.console.so/members/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://log.console.so/members/anna/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/anna/</guid><description> anna contact - Written Notes Emoji</description></item><item><title/><link>https://log.console.so/members/hnh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/hnh/</guid><description> hnh contact - Written Notes Log Mochi Raycast Extension Support APTOS chain Support Avax chain Support Linea chain Support Klaytn chain Support OpBNB chain Support Starknet chain Support RONIN chain Support SUI chain Support TON chain Support zkSync chain Blockchain event calendar Mochi Raycast Extension Mochi Extension Extension Integrate new chain Continuous Integration API-first development Data layer Format a Neko profile Leverage Mochi balances Meaningful commit message How to work with emoji on Discord Shared UI library in multiple platforms Earn</description></item><item><title/><link>https://log.console.so/members/minh_cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/minh_cloud/</guid><description> minh_cloud contact - Written Notes Log Mochi WAGMI comics Leverage Mochi balances A Scrum Sprint</description></item><item><title/><link>https://log.console.so/members/monotykamary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/monotykamary/</guid><description> monotykamary contact - Written Notes Earn</description></item><item><title/><link>https://log.console.so/members/neko-san/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/neko-san/</guid><description> neko-san contact https://twitter.com/abaddeed
-https://bsky.app/profile/han.bsky.social Written Notes About Us Log Shape Up Contributors Neko NFT Purpose Philosophy</description></item><item><title/><link>https://log.console.so/members/vincent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/vincent/</guid><description> vincent contact - Written Notes</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Members on Console Labs</title><link>https://log.console.so/members/</link><description>Recent content in Members on Console Labs</description><generator>Hugo</generator><language>en-us</language><managingEditor>han@console.so (Han Ngo)</managingEditor><webMaster>han@console.so (Han Ngo)</webMaster><copyright>© 2023 ConsoleLabs.</copyright><atom:link href="https://log.console.so/members/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://log.console.so/members/anna/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/anna/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;anna&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/emoji/"&gt;Emoji&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/hnh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/hnh/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;hnh&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/cronjob-validate-emoji/"&gt;Mochi Raycast Extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-aptos-chain/"&gt;Support APTOS chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-avax-chain/"&gt;Support Avax chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-linea-chain/"&gt;Support Linea chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-klaytn-chain/"&gt;Support Klaytn chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-opbnb-chain/"&gt;Support OpBNB chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-starknet-chain/"&gt;Support Starknet chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-ronin-chain/"&gt;Support RONIN chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-sui-chain/"&gt;Support SUI chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-ton-chain/"&gt;Support TON chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/data-zksync-chain/"&gt;Support zkSync chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-blockchain-event-calendar/"&gt;Blockchain event calendar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/earn/mochi-raycast-extension/"&gt;Mochi Raycast Extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Mochi Extension Extension&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/add-new-chains/"&gt;Integrate new chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/ci-cd/"&gt;Continuous Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/api-first/"&gt;API-first development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/data-layer/"&gt;Data layer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/format-profile-number/"&gt;Format a Neko profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/integrate-mochi-balances/"&gt;Leverage Mochi balances&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/meaningful-commit/"&gt;Meaningful commit message&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/render-emoji/"&gt;How to work with emoji on Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/shared-ui-lib/"&gt;Shared UI library in multiple platforms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/bounty/"&gt;Earn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/minh_cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/minh_cloud/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;minh_cloud&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/mochi/"&gt;Mochi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/wagmi/"&gt;WAGMI comics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/integrate-mochi-balances/"&gt;Leverage Mochi balances&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/playbook/workflow/"&gt;A Scrum Sprint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/monotykamary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/monotykamary/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;monotykamary&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/bounty/"&gt;Earn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/neko-san/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/neko-san/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;neko-san&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://pbs.twimg.com/profile_images/1668203756348141570/j1RRmGAI_400x400.jpg" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;a href="https://twitter.com/abaddeed"&gt;https://twitter.com/abaddeed&lt;/a&gt;&lt;br&gt;&lt;a href="https://bsky.app/profile/han.bsky.social"&gt;https://bsky.app/profile/han.bsky.social&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/about/"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/log/"&gt;Log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/blog/shape-up/"&gt;Shape Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/contributors/"&gt;Contributors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/experiments/neko/"&gt;Neko NFT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/purpose/"&gt;Purpose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://log.console.so/philosophy/"&gt;Philosophy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://log.console.so/members/vincent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>han@console.so (Han Ngo)</author><guid>https://log.console.so/members/vincent/</guid><description>&lt;div class="profile"/&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;vincent&lt;/th&gt;
+					&lt;th&gt;contact&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img src="https://log.console.so/members/-" alt="avatar|100x100"onerror="this.onerror = null; this.src = '/images/experiments/neko/neko-first-version.jpeg'"
+/&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id="written-notes"&gt;Written Notes &lt;a href="#written-notes"&gt;&lt;/a&gt;&lt;/h2&gt;</description></item></channel></rss>
