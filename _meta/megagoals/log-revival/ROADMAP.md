@@ -6,13 +6,14 @@
 **Merge mode:** auto-bottom-up
 **Merge autonomy:** gated-final
 **Started:** 2026-06-25
+**Status:** ✅ SHIPPED 2026-06-28 , terminus met: the June 2026 post is live + Han-accepted at https://log.console.so/console-log-2026-06/. Build stack 01/02/03/06/07/08 merged + live; post-ship polish (slug, metadata, stale-link + canonical fixes) shipped as follow-ups (PRs #9-#14). Only **04-monitoring is PARKED** (blocked on Han's vps-mon CF infra, an unchanged prerequisite). Open follow-ups live in NOTES `## Proposed additions` (de-obsidian + real /log/ removal, content-bak cleanup, CONSOLE_PAT auto-deploy).
 
 ## Sub-goals
 
 - [x] 01-revive-build, local `make build` produces `public/` on the current toolchain (versions pinned), `auto`, PR #2
 - [x] 02-writing-tool, `logwriter <month>` emits a vault-ready in-voice draft from real repo signal, `auto`, PR #3
 - [x] 03-publish-flow, one-command draft-only flow stages a post into the content repo + opens a PR (no direct push to live), `auto`, PR #7
-- [ ] 04-monitoring, vps-mon catalog shows log.console.so uptime + freshness + publish-job as `monitored`, `auto`, PR #
+- [~] 04-monitoring, vps-mon catalog shows log.console.so uptime + freshness + publish-job as `monitored`, `auto`, PR # , **PARKED** (blocked on Han's vps-mon CF infra: a live D1 insert on his CF account + new freshness/action-success Worker code in ops-toolkit/tools/vps-mon; see NOTES Active blockers)
 - [x] 06-design-system, `docs/brand/DESIGN.md` brand guideline locked via a multi-step process (audit, parallel divergent directions, critique, converge, mockup), `auto`, PR #5
 - [x] 07-reskin-log, log Hugo layouts + assets render on the DESIGN.md tokens, `auto`, PR #6
 - [x] 05-first-post-uat, a real monthly post is live + Han-accepted, `auto` (HELD-FINAL; Han authorized publish 2026-06-28), PR #8 + content PR #4. LIVE: https://log.console.so/console-log-2026-06/ (200)
