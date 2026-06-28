@@ -6,6 +6,11 @@
     {{ $favicon32 := resources.Get "favicon-32x32.png" }}
     {{ $appleTouchIcon := resources.Get "apple-touch-icon.png" }}
     {{ $whiteImage := resources.Get "img/ConsoleLabs_logo_1.jpg" }}
+    {{/* Canonical URL: a page may override it via front-matter `canonical:` (e.g. the
+         running log renders at both / and /log/, and points /log/'s canonical at / so
+         search engines treat the home as the real URL). Defaults to the page's own URL. */}}
+    {{ $canonical := .Permalink | absURL }}
+    {{ with .Params.canonical }}{{ $canonical = . | absURL }}{{ end }}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
@@ -17,14 +22,14 @@
     <meta property="og:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta property="og:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:url" content="{{ $canonical }}">
     <meta property="og:image" content="{{ $whiteImage.Permalink }}">
   
     <!-- Twitter Meta -->
     <meta property="twitter:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta property="twitter:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="twitter:type" content="article">
-    <meta property="twitter:url" content="{{ .Permalink }}">
+    <meta property="twitter:url" content="{{ $canonical }}">
     <meta property="twitter:image" content="{{ $whiteImage.Permalink }}">
     
     <link rel="icon" type="image/x-icon" href="{{ $favicon.Permalink }}">
@@ -32,7 +37,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.Permalink }}">
     <link rel="apple-touch-icon" href="{{ $appleTouchIcon.Permalink }}">
     <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-    <link rel="canonical" href="{{ .Permalink | absURL }}">
+    <link rel="canonical" href="{{ $canonical }}">
     {{ with .OutputFormats.Get "rss" -}}
         {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
     {{ end }}
