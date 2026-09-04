@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
 
 jobs:
   publish_job:
@@ -15,6 +18,15 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
           submodules: recursive
+
+      # The committed gitlink goes stale on every content merge and the
+      # dispatch chain that used to bump it needs a PAT with actions:write.
+      # Build from the vault tip instead; nothing is pushed back.
+      - name: Advance vault to content main
+        shell: bash
+        run: |
+          git submodule update --remote --depth 1 vault
+          echo "vault at $(git -C vault rev-parse --short HEAD)"
 
       - name: Install obsidian-export (cached)
         uses: baptiste0928/cargo-install@v3
