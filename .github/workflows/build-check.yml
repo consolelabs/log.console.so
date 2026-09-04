@@ -13,7 +13,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, pr-shared]
     name: Hugo template + config smoke test
     steps:
       - name: Checkout (no submodule; content is private)
@@ -30,3 +30,6 @@ jobs:
         run: |
           mkdir -p content
           hugo -DEF --minify
+
+  no-ai-commits:
+    uses: consolelabs/.github/.github/workflows/no-ai-commits.yml@main
