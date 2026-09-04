@@ -1,3 +1,5 @@
+> **Status (2026-09-04):** this repo is being folded into [`consolelabs/console-apps`](https://github.com/consolelabs/console-apps) as `apps/log`, served from Cloudflare Workers. Until that cut it still builds and serves https://log.console.so/ from GitHub Pages. The build advances the `vault` submodule to `consolelabs/content` `main` at build time and runs hourly and on demand (Actions, Run workflow); the old submodule-bump dispatch is gone. After the cut this repo is archived.
+
 # log.console.so
 
 [![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
