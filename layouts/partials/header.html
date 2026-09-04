@@ -6,6 +6,12 @@
     {{ $favicon32 := resources.Get "favicon-32x32.png" }}
     {{ $appleTouchIcon := resources.Get "apple-touch-icon.png" }}
     {{ $whiteImage := resources.Get "img/ConsoleLabs_logo_1.jpg" }}
+    {{/* OG/Twitter card image. Defaults to the site logo, so every existing post is
+         unchanged. A post opts in to its own card by setting front-matter `images:`;
+         the first entry wins and is resolved against the site root, e.g.
+         images: ["/images/experiments/safu/safu_title.png"]. Aim for 1200x630. */}}
+    {{ $ogImage := $whiteImage.Permalink }}
+    {{ with .Params.images }}{{ $ogImage = index . 0 | absURL }}{{ end }}
     {{/* Canonical URL: a page may override it via front-matter `canonical:` (e.g. the
          running log renders at both / and /log/, and points /log/'s canonical at / so
          search engines treat the home as the real URL). Defaults to the page's own URL. */}}
@@ -23,14 +29,14 @@
     <meta property="og:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ $canonical }}">
-    <meta property="og:image" content="{{ $whiteImage.Permalink }}">
+    <meta property="og:image" content="{{ $ogImage }}">
   
     <!-- Twitter Meta -->
     <meta property="twitter:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta property="twitter:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="twitter:type" content="article">
     <meta property="twitter:url" content="{{ $canonical }}">
-    <meta property="twitter:image" content="{{ $whiteImage.Permalink }}">
+    <meta property="twitter:image" content="{{ $ogImage }}">
     
     <link rel="icon" type="image/x-icon" href="{{ $favicon.Permalink }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.Permalink }}">
