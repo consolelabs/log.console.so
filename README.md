@@ -1,31 +1,31 @@
-> **Status (2026-09-04):** this repo is being folded into [`consolelabs/console-apps`](https://github.com/consolelabs/console-apps) as `apps/log`, served from Cloudflare Workers. Until that cut it still builds and serves https://log.console.so/ from GitHub Pages. The build advances the `vault` submodule to `consolelabs/content` `main` at build time and runs hourly and on demand (Actions, Run workflow); the old submodule-bump dispatch is gone. After the cut this repo is archived.
-
 # log.console.so
 
-[![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
+**This repository is archived. The site moved to `consolelabs/console-apps`, `apps/log`.**
 
-[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/consolelabs/log.console.so)
+`log.console.so` answered from GitHub Pages here until 2026-09-04. It now answers from the Cloudflare Worker `cl-log`, deployed from `consolelabs/console-apps`.
 
-This is the repository where we keep our internal notes from everything related to our engineering practices, experiments, as well as bounty notices. We use this repo to share our knowledge, insights, and experiences with each other before we make it generally available to our community.
+| Fact | Value |
+|---|---|
+| Cut | `2026-09-04T11:10:50Z` |
+| Serves from | Cloudflare Worker `cl-log`, Console Labs account |
+| Source now | `consolelabs/console-apps`, `apps/log` |
+| Soak verdict | PASS, 2026-09-05 |
+| GitHub Pages here | disabled 2026-09-05 |
 
-## Getting Started
+The full history of this repository was imported into `consolelabs/console-apps` under `apps/log`, so `git log --follow` there reaches the first commit made here. Nothing was lost by archiving this copy.
 
-We welcome contributions from anyone who is interested in our topics. You can contribute by creating a new note, editing an existing note, or commenting on a note. To do so, you need to follow these steps:
+## Where the posts live, and how one gets published
 
-1. Fork this repo and clone it to your local machine.
-2. Install [Devbox](^9^), a command-line tool that lets you easily create isolated shells and containers for development. Devbox will help you set up a consistent and reproducible environment for this repo, with all the necessary tools and dependencies installed.
-3. Run `devbox shell` in the root directory of the repo to enter an isolated shell. Alternatively, you can use [VSCode](https://code.visualstudio.com/) with the [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension to open the repo as a devcontainer.
+The posts were never in this repository. They live in `consolelabs/content`, which this repository pulled in as the `vault` submodule and which is NOT archived.
 
-To run the server, you can run our Makefile command:
-```sh
-make watch-run
-```
+A merge to `main` in `consolelabs/content` now dispatches the `Publish log` workflow in `consolelabs/console-apps`, which builds the site against `consolelabs/content` `main` and deploys `cl-log`. Nothing polls, nothing is scheduled, and no submodule pin has to be remembered. The old hourly build that ran here is gone.
 
-or through devbox:
-```sh
-devbox run watch-run
-```
+| Record | Where |
+|---|---|
+| The publish chain, end to end | `consolelabs/console-apps` `docs/publish-pipeline.md` |
+| The port | `consolelabs/console-apps` `docs/verification/log-port.md` |
+| The cut, with every command and its exit code | `consolelabs/console-apps` `docs/verification/log-cut.md` |
+| The runbook the cut followed | `consolelabs/console-apps` `docs/cut-runbook-log.md` |
+| The migration program | `tieubao/console-labs` `docs/specs/SPEC-013-web-migration-vercel-to-cloudflare.md` |
 
-## Code of conduct
-
-We expect all contributors to adhere to our [code of conduct](^15^), which is based on the [Contributor Covenant](https://www.contributor-covenant.org/). By participating in this project, you agree to abide by its terms. Please report any unacceptable behavior to [han@console.so](mailto:han@console.so).
+To write a post, send it to `consolelabs/content`. To change the site itself, send it to `consolelabs/console-apps` `apps/log`. Nothing here is deployed.
